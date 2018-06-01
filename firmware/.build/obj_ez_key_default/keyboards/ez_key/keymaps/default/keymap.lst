@@ -1,0 +1,220 @@
+   1               		.file	"keymap.c"
+   2               	__SP_H__ = 0x3e
+   3               	__SP_L__ = 0x3d
+   4               	__SREG__ = 0x3f
+   5               	__tmp_reg__ = 0
+   6               	__zero_reg__ = 1
+   7               		.text
+   8               	.Ltext0:
+   9               		.cfi_sections	.debug_frame
+  10               		.section	.text.action_get_macro,"ax",@progbits
+  11               	.global	action_get_macro
+  13               	action_get_macro:
+  14               	.LFB17:
+  15               		.file 1 "keyboards/ez_key/keymaps/default/keymap.c"
+   1:keyboards/ez_key/keymaps/default/keymap.c **** /* Copyright 2017 REPLACE_WITH_YOUR_NAME
+   2:keyboards/ez_key/keymaps/default/keymap.c ****  *
+   3:keyboards/ez_key/keymaps/default/keymap.c ****  * This program is free software: you can redistribute it and/or modify
+   4:keyboards/ez_key/keymaps/default/keymap.c ****  * it under the terms of the GNU General Public License as published by
+   5:keyboards/ez_key/keymaps/default/keymap.c ****  * the Free Software Foundation, either version 2 of the License, or
+   6:keyboards/ez_key/keymaps/default/keymap.c ****  * (at your option) any later version.
+   7:keyboards/ez_key/keymaps/default/keymap.c ****  *
+   8:keyboards/ez_key/keymaps/default/keymap.c ****  * This program is distributed in the hope that it will be useful,
+   9:keyboards/ez_key/keymaps/default/keymap.c ****  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  10:keyboards/ez_key/keymaps/default/keymap.c ****  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  11:keyboards/ez_key/keymaps/default/keymap.c ****  * GNU General Public License for more details.
+  12:keyboards/ez_key/keymaps/default/keymap.c ****  *
+  13:keyboards/ez_key/keymaps/default/keymap.c ****  * You should have received a copy of the GNU General Public License
+  14:keyboards/ez_key/keymaps/default/keymap.c ****  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  15:keyboards/ez_key/keymaps/default/keymap.c ****  */
+  16:keyboards/ez_key/keymaps/default/keymap.c **** #include QMK_KEYBOARD_H
+  17:keyboards/ez_key/keymaps/default/keymap.c **** 
+  18:keyboards/ez_key/keymaps/default/keymap.c **** const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+  19:keyboards/ez_key/keymaps/default/keymap.c **** [0] = LAYOUT( /* Base */
+  20:keyboards/ez_key/keymaps/default/keymap.c ****   KC_A,  KC_B, \
+  21:keyboards/ez_key/keymaps/default/keymap.c ****     KC_C,  KC_D  \
+  22:keyboards/ez_key/keymaps/default/keymap.c **** ),
+  23:keyboards/ez_key/keymaps/default/keymap.c **** };
+  24:keyboards/ez_key/keymaps/default/keymap.c **** 
+  25:keyboards/ez_key/keymaps/default/keymap.c **** const uint16_t PROGMEM fn_actions[] = {
+  26:keyboards/ez_key/keymaps/default/keymap.c **** 
+  27:keyboards/ez_key/keymaps/default/keymap.c **** };
+  28:keyboards/ez_key/keymaps/default/keymap.c **** 
+  29:keyboards/ez_key/keymaps/default/keymap.c **** const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
+  30:keyboards/ez_key/keymaps/default/keymap.c **** {
+  16               		.loc 1 30 0
+  17               		.cfi_startproc
+  18               	.LVL0:
+  19               	/* prologue: function */
+  20               	/* frame size = 0 */
+  21               	/* stack size = 0 */
+  22               	.L__stack_usage = 0
+  31:keyboards/ez_key/keymaps/default/keymap.c ****   // MACRODOWN only works in this function
+  32:keyboards/ez_key/keymaps/default/keymap.c ****       switch(id) {
+  23               		.loc 1 32 0
+  24 0000 6111      		cpse r22,__zero_reg__
+  25 0002 00C0      		rjmp .L2
+  33:keyboards/ez_key/keymaps/default/keymap.c ****         case 0:
+  34:keyboards/ez_key/keymaps/default/keymap.c ****           if (record->event.pressed) {
+  26               		.loc 1 34 0
+  27 0004 FC01      		movw r30,r24
+  28 0006 8281      		ldd r24,Z+2
+  29               	.LVL1:
+  30 0008 8823      		tst r24
+  31 000a 01F0      		breq .L4
+  35:keyboards/ez_key/keymaps/default/keymap.c ****             register_code(KC_RSFT);
+  32               		.loc 1 35 0
+  33 000c 85EE      		ldi r24,lo8(-27)
+  34 000e 0E94 0000 		call register_code
+  35               	.LVL2:
+  36               	.L2:
+  36:keyboards/ez_key/keymaps/default/keymap.c ****           } else {
+  37:keyboards/ez_key/keymaps/default/keymap.c ****             unregister_code(KC_RSFT);
+  38:keyboards/ez_key/keymaps/default/keymap.c ****           }
+  39:keyboards/ez_key/keymaps/default/keymap.c ****         break;
+  40:keyboards/ez_key/keymaps/default/keymap.c ****       }
+  41:keyboards/ez_key/keymaps/default/keymap.c ****     return MACRO_NONE;
+  42:keyboards/ez_key/keymaps/default/keymap.c **** };
+  37               		.loc 1 42 0
+  38 0012 90E0      		ldi r25,0
+  39 0014 80E0      		ldi r24,0
+  40               	/* epilogue start */
+  41 0016 0895      		ret
+  42               	.LVL3:
+  43               	.L4:
+  37:keyboards/ez_key/keymaps/default/keymap.c ****           }
+  44               		.loc 1 37 0
+  45 0018 85EE      		ldi r24,lo8(-27)
+  46 001a 0E94 0000 		call unregister_code
+  47               	.LVL4:
+  48 001e 00C0      		rjmp .L2
+  49               		.cfi_endproc
+  50               	.LFE17:
+  52               		.section	.text.matrix_init_user,"ax",@progbits
+  53               	.global	matrix_init_user
+  55               	matrix_init_user:
+  56               	.LFB18:
+  43:keyboards/ez_key/keymaps/default/keymap.c **** 
+  44:keyboards/ez_key/keymaps/default/keymap.c **** 
+  45:keyboards/ez_key/keymaps/default/keymap.c **** void matrix_init_user(void) {
+  57               		.loc 1 45 0
+  58               		.cfi_startproc
+  59               	/* prologue: function */
+  60               	/* frame size = 0 */
+  61               	/* stack size = 0 */
+  62               	.L__stack_usage = 0
+  63               	/* epilogue start */
+  46:keyboards/ez_key/keymaps/default/keymap.c **** 
+  47:keyboards/ez_key/keymaps/default/keymap.c **** }
+  64               		.loc 1 47 0
+  65 0000 0895      		ret
+  66               		.cfi_endproc
+  67               	.LFE18:
+  69               		.section	.text.matrix_scan_user,"ax",@progbits
+  70               	.global	matrix_scan_user
+  72               	matrix_scan_user:
+  73               	.LFB23:
+  74               		.cfi_startproc
+  75               	/* prologue: function */
+  76               	/* frame size = 0 */
+  77               	/* stack size = 0 */
+  78               	.L__stack_usage = 0
+  79               	/* epilogue start */
+  80 0000 0895      		ret
+  81               		.cfi_endproc
+  82               	.LFE23:
+  84               		.section	.text.process_record_user,"ax",@progbits
+  85               	.global	process_record_user
+  87               	process_record_user:
+  88               	.LFB20:
+  48:keyboards/ez_key/keymaps/default/keymap.c **** 
+  49:keyboards/ez_key/keymaps/default/keymap.c **** void matrix_scan_user(void) {
+  50:keyboards/ez_key/keymaps/default/keymap.c **** 
+  51:keyboards/ez_key/keymaps/default/keymap.c **** }
+  52:keyboards/ez_key/keymaps/default/keymap.c **** 
+  53:keyboards/ez_key/keymaps/default/keymap.c **** bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+  89               		.loc 1 53 0
+  90               		.cfi_startproc
+  91               	.LVL5:
+  92               	/* prologue: function */
+  93               	/* frame size = 0 */
+  94               	/* stack size = 0 */
+  95               	.L__stack_usage = 0
+  54:keyboards/ez_key/keymaps/default/keymap.c ****   return true;
+  55:keyboards/ez_key/keymaps/default/keymap.c **** }
+  96               		.loc 1 55 0
+  97 0000 81E0      		ldi r24,lo8(1)
+  98               	.LVL6:
+  99               	/* epilogue start */
+ 100 0002 0895      		ret
+ 101               		.cfi_endproc
+ 102               	.LFE20:
+ 104               		.section	.text.led_set_user,"ax",@progbits
+ 105               	.global	led_set_user
+ 107               	led_set_user:
+ 108               	.LFB21:
+  56:keyboards/ez_key/keymaps/default/keymap.c **** 
+  57:keyboards/ez_key/keymaps/default/keymap.c **** void led_set_user(uint8_t usb_led) {
+ 109               		.loc 1 57 0
+ 110               		.cfi_startproc
+ 111               	.LVL7:
+ 112               	/* prologue: function */
+ 113               	/* frame size = 0 */
+ 114               	/* stack size = 0 */
+ 115               	.L__stack_usage = 0
+  58:keyboards/ez_key/keymaps/default/keymap.c **** 	PORTD |= (1 << 6);
+ 116               		.loc 1 58 0
+ 117 0000 5E9A      		sbi 0xb,6
+ 118               	/* epilogue start */
+  59:keyboards/ez_key/keymaps/default/keymap.c **** }
+ 119               		.loc 1 59 0
+ 120 0002 0895      		ret
+ 121               		.cfi_endproc
+ 122               	.LFE21:
+ 124               	.global	fn_actions
+ 125               		.section	.progmem.data.fn_actions,"a",@progbits
+ 128               	fn_actions:
+ 129               	.global	keymaps
+ 130               		.section	.progmem.data.keymaps,"a",@progbits
+ 133               	keymaps:
+ 134 0000 0400      		.word	4
+ 135 0002 0500      		.word	5
+ 136 0004 0600      		.word	6
+ 137 0006 0700      		.word	7
+ 138               		.text
+ 139               	.Letext0:
+ 140               		.file 2 "/usr/avr/include/stdint.h"
+ 141               		.file 3 "/usr/lib/gcc/avr/7.3.0/include/stddef.h"
+ 142               		.file 4 "./tmk_core/common/keyboard.h"
+ 143               		.file 5 "./tmk_core/common/action_macro.h"
+ 144               		.file 6 "./tmk_core/common/action.h"
+ 145               		.file 7 "./tmk_core/common/report.h"
+ 146               		.file 8 "./tmk_core/common/host.h"
+ 147               		.file 9 "./tmk_core/common/avr/xprintf.h"
+ 148               		.file 10 "./tmk_core/common/debug.h"
+ 149               		.file 11 "./quantum/keycode_config.h"
+ 150               		.file 12 "./quantum/keymap.h"
+ 151               		.file 13 "./tmk_core/common/action_layer.h"
+ 152               		.file 14 "./tmk_core/common/timer.h"
+ 153               		.file 15 "./tmk_core/common/action_util.h"
+ 154               		.file 16 "/usr/avr/include/stdlib.h"
+ 155               		.file 17 "./quantum/quantum.h"
+ 156               		.file 18 "./tmk_core/common/keycode.h"
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 keymap.c
+ /var/tmp/ccFiRVhH.s:2      *ABS*:000000000000003e __SP_H__
+ /var/tmp/ccFiRVhH.s:3      *ABS*:000000000000003d __SP_L__
+ /var/tmp/ccFiRVhH.s:4      *ABS*:000000000000003f __SREG__
+ /var/tmp/ccFiRVhH.s:5      *ABS*:0000000000000000 __tmp_reg__
+ /var/tmp/ccFiRVhH.s:6      *ABS*:0000000000000001 __zero_reg__
+ /var/tmp/ccFiRVhH.s:13     .text.action_get_macro:0000000000000000 action_get_macro
+ /var/tmp/ccFiRVhH.s:55     .text.matrix_init_user:0000000000000000 matrix_init_user
+ /var/tmp/ccFiRVhH.s:72     .text.matrix_scan_user:0000000000000000 matrix_scan_user
+ /var/tmp/ccFiRVhH.s:87     .text.process_record_user:0000000000000000 process_record_user
+ /var/tmp/ccFiRVhH.s:107    .text.led_set_user:0000000000000000 led_set_user
+ /var/tmp/ccFiRVhH.s:128    .progmem.data.fn_actions:0000000000000000 fn_actions
+ /var/tmp/ccFiRVhH.s:133    .progmem.data.keymaps:0000000000000000 keymaps
+
+UNDEFINED SYMBOLS
+register_code
+unregister_code
