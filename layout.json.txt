@@ -1,0 +1,197 @@
+[
+  {
+    "name": "ade-sede KEYBOARD",
+    "author": "ade-sede@student.42.fr",
+    "switchMount": "cherry",
+    "switchBrand": "kailh",
+    "switchType": "PG151101D49/D09",
+    "pcb": true,
+    "plate": false
+  },
+  [
+    {
+      "c": "#007b45",
+      "a": 7
+    },
+    "Esc",
+    {
+      "c": "#cccccc",
+      "t": "#000000\n\n#0700ff",
+      "a": 4
+    },
+    "!\n\nF1\n\n\n\n\n\n\n1",
+    "@\n\nF2\n\n\n\n\n\n\n2",
+    "#\n\nF3\n\n\n\n\n\n\n3",
+    "$\n\nF4\n\n\n\n\n\n\n4",
+    "%\n\nF5\n\n\n\n\n\n\n5",
+    {
+      "c": "#e86700",
+      "t": "#09001c\n\n#0700ff"
+    },
+    "-\n\nF11\n\n\n\n\n\n\n_",
+    {
+      "t": "#000000\n\n#0700ff"
+    },
+    "+\n\nF12\n\n\n\n\n\n\n=",
+    {
+      "c": "#cccccc"
+    },
+    "^\n\nF6\n\n\n\n\n\n\n6",
+    "&\n\nF7\n\n\n\n\n\n\n7",
+    "*\n\nF8\n\n\n\n\n\n\n8",
+    "\n\nF9\n\n\n\n\n\n\n9",
+    "\n\nF10\n\n\n\n\n\n\n0"
+  ],
+  [
+    {
+      "c": "#007b45",
+      "t": "#000000",
+      "a": 7
+    },
+    "____",
+    {
+      "c": "#cccccc"
+    },
+    "q",
+    "w",
+    "e",
+    "r",
+    "t",
+    {
+      "c": "#e86700",
+      "a": 4
+    },
+    "\"\n\n\n\n\n\n\n\n\n'",
+    {
+      "a": 7
+    },
+    "<i class='fa fa-arrow-left'></i>",
+    {
+      "c": "#cccccc",
+      "t": "#000000\n\n#0700ff",
+      "a": 4,
+      "fa": [
+        0,
+        0,
+        7
+      ]
+    },
+    "\n\n(\n\n\n\n\n\n\ny",
+    "\n\n)\n\n\n\n\n\n\nu",
+    {
+      "t": "#000000",
+      "a": 7
+    },
+    "i",
+    "o",
+    "p"
+  ],
+  [
+    {
+      "c": "#007b45"
+    },
+    "<i class='fa fa-lock'></i>",
+    {
+      "c": "#cccccc"
+    },
+    "a",
+    "s",
+    "d",
+    "f",
+    "g",
+    {
+      "c": "#e86700",
+      "a": 4
+    },
+    ":\n\n\n\n\n\n\n\n\n;",
+    "?\n\n\n\n\n\n\n\n\n/",
+    {
+      "c": "#cccccc",
+      "t": "#000000\n\n#0700ff"
+    },
+    "\n\n[\n\n\n\n\n\n\nh",
+    "\n\n]\n\n\n\n\n\n\nj",
+    {
+      "t": "#000000",
+      "a": 7
+    },
+    "k",
+    "l",
+    {
+      "c": "#e86700",
+      "a": 4
+    },
+    "\\\n\n\n\n\n\n\n\n\n|"
+  ],
+  [
+    {
+      "c": "#007b45",
+      "a": 7
+    },
+    "Shift",
+    {
+      "c": "#cccccc"
+    },
+    "z",
+    "x",
+    "c",
+    "v",
+    "b",
+    {
+      "c": "#e86700",
+      "a": 4
+    },
+    "<\n\n\n\n\n\n\n\n\n,",
+    ">\n\n\n\n\n\n\n\n\n.",
+    {
+      "c": "#cccccc",
+      "t": "#000000\n\n#0700ff"
+    },
+    "\n\n{\n\n\n\n\n\n\nn",
+    "\n\n}\n\n\n\n\n\n\nm",
+    {
+      "c": "#00792c",
+      "t": "#000000",
+      "a": 7
+    },
+    "<i class='fa fa-angle-double-up'></i>",
+    "<i class='fa fa-angle-double-down'></i>",
+    {
+      "c": "#1e7dc9"
+    },
+    "Enter"
+  ],
+  [
+    {
+      "c": "#007b45"
+    },
+    "Ctrl",
+    {
+      "t": "0700ff"
+    },
+    "FN^1",
+    {
+      "t": "#000000"
+    },
+    "M-x",
+    "Vim cancel",
+    "SUP",
+    "ALT",
+    {
+      "c": "#1e7dc9"
+    },
+    "Space",
+    "Enter",
+    {
+      "c": "#00792c"
+    },
+    "<i class='fa fa-angle-left'></i>",
+    "<i class='fa fa-angle-down'></i>",
+    "<i class='fa fa-angle-up'></i>",
+    "<i class='fa fa-angle-right'></i>",
+    {
+      "c": "#1e7dc9"
+    },
+    "FN^2"
+  ]
+]
