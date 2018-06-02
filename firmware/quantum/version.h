@@ -1,2 +1,0 @@
-#define QMK_VERSION "0.6.19-5-g642bf0"
-#define QMK_BUILDDATE "2018-06-01-01:47:52"

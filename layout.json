@@ -10,14 +10,12 @@
   },
   [
     {
-      "c": "#007b45",
-      "a": 7
+      "c": "#007b45"
     },
-    "Esc",
+    "~\n\n\n\n\n\n\n\n\n`",
     {
       "c": "#cccccc",
-      "t": "#000000\n\n#0700ff",
-      "a": 4
+      "t": "#000000\n\n#0700ff"
     },
     "!\n\nF1\n\n\n\n\n\n\n1",
     "@\n\nF2\n\n\n\n\n\n\n2",
@@ -28,11 +26,11 @@
       "c": "#e86700",
       "t": "#09001c\n\n#0700ff"
     },
-    "-\n\nF11\n\n\n\n\n\n\n_",
+    "+\n\nF11\n\n\n\n\n\n\n=",
     {
       "t": "#000000\n\n#0700ff"
     },
-    "+\n\nF12\n\n\n\n\n\n\n=",
+    "_\n\nF12\n\n\n\n\n\n\n-",
     {
       "c": "#cccccc"
     },
@@ -63,13 +61,11 @@
     },
     "\"\n\n\n\n\n\n\n\n\n'",
     {
-      "a": 7
+      "t": "#000000\n\n#0700ff"
     },
-    "<i class='fa fa-arrow-left'></i>",
+    "\n\nDEL\n\n\n\n\n\n\n<i class='fa fa-arrow-left'></i>",
     {
       "c": "#cccccc",
-      "t": "#000000\n\n#0700ff",
-      "a": 4,
       "fa": [
         0,
         0,
@@ -88,9 +84,9 @@
   ],
   [
     {
-      "c": "#007b45"
+      "c": "#1e7dc9"
     },
-    "<i class='fa fa-lock'></i>",
+    "Esc",
     {
       "c": "#cccccc"
     },
@@ -118,16 +114,18 @@
     "k",
     "l",
     {
-      "c": "#e86700",
+      "c": "#00792c",
       "a": 4
     },
-    "\\\n\n\n\n\n\n\n\n\n|"
-  ],
-  [
+    "\\\n\n\n\n\n\n\n\n\n|",
     {
+      "x": 0.5,
       "c": "#007b45",
       "a": 7
     },
+    "<i class='fa fa-lock'></i>"
+  ],
+  [
     "Shift",
     {
       "c": "#cccccc"
@@ -145,9 +143,13 @@
     ">\n\n\n\n\n\n\n\n\n.",
     {
       "c": "#cccccc",
-      "t": "#000000\n\n#0700ff"
+      "t": "#000000\n\n#0700ff",
+      "f": 3
     },
     "\n\n{\n\n\n\n\n\n\nn",
+    {
+      "f": 3
+    },
     "\n\n}\n\n\n\n\n\n\nm",
     {
       "c": "#00792c",
@@ -156,42 +158,44 @@
     },
     "<i class='fa fa-angle-double-up'></i>",
     "<i class='fa fa-angle-double-down'></i>",
-    {
-      "c": "#1e7dc9"
-    },
-    "Enter"
+    "Shift"
   ],
   [
     {
       "c": "#007b45"
     },
     "Ctrl",
-    {
-      "t": "0700ff"
-    },
-    "FN^1",
-    {
-      "t": "#000000"
-    },
-    "M-x",
-    "Vim cancel",
     "SUP",
     "ALT",
+    "M-x",
+    "Vim cancel",
+    {
+      "c": "#c725d9"
+    },
+    "FN^1",
     {
       "c": "#1e7dc9"
     },
     "Space",
     "Enter",
     {
+      "c": "#c725d9"
+    },
+    "FN^2",
+    {
       "c": "#00792c"
     },
     "<i class='fa fa-angle-left'></i>",
     "<i class='fa fa-angle-down'></i>",
     "<i class='fa fa-angle-up'></i>",
-    "<i class='fa fa-angle-right'></i>",
+    "<i class='fa fa-angle-right'></i>"
+  ],
+  [
     {
-      "c": "#1e7dc9"
+      "y": -0.5,
+      "x": 13.5,
+      "c": "#007b45"
     },
-    "FN^2"
+    "<i class='fa fa-lock'></i>"
   ]
 ]

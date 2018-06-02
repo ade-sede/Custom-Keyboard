@@ -131,15 +131,15 @@
   97               		.file 16 "./quantum/quantum.h"
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 ez_keyboard.c
- /var/tmp/ccyQ0M3w.s:2      *ABS*:000000000000003e __SP_H__
- /var/tmp/ccyQ0M3w.s:3      *ABS*:000000000000003d __SP_L__
- /var/tmp/ccyQ0M3w.s:4      *ABS*:000000000000003f __SREG__
- /var/tmp/ccyQ0M3w.s:5      *ABS*:0000000000000000 __tmp_reg__
- /var/tmp/ccyQ0M3w.s:6      *ABS*:0000000000000001 __zero_reg__
- /var/tmp/ccyQ0M3w.s:13     .text.matrix_init_kb:0000000000000000 matrix_init_kb
- /var/tmp/ccyQ0M3w.s:31     .text.matrix_scan_kb:0000000000000000 matrix_scan_kb
- /var/tmp/ccyQ0M3w.s:48     .text.process_record_kb:0000000000000000 process_record_kb
- /var/tmp/ccyQ0M3w.s:66     .text.led_set_kb:0000000000000000 led_set_kb
+ /var/tmp/ccHp1Jd0.s:2      *ABS*:000000000000003e __SP_H__
+ /var/tmp/ccHp1Jd0.s:3      *ABS*:000000000000003d __SP_L__
+ /var/tmp/ccHp1Jd0.s:4      *ABS*:000000000000003f __SREG__
+ /var/tmp/ccHp1Jd0.s:5      *ABS*:0000000000000000 __tmp_reg__
+ /var/tmp/ccHp1Jd0.s:6      *ABS*:0000000000000001 __zero_reg__
+ /var/tmp/ccHp1Jd0.s:13     .text.matrix_init_kb:0000000000000000 matrix_init_kb
+ /var/tmp/ccHp1Jd0.s:31     .text.matrix_scan_kb:0000000000000000 matrix_scan_kb
+ /var/tmp/ccHp1Jd0.s:48     .text.process_record_kb:0000000000000000 process_record_kb
+ /var/tmp/ccHp1Jd0.s:66     .text.led_set_kb:0000000000000000 led_set_kb
 
 UNDEFINED SYMBOLS
 matrix_init_user

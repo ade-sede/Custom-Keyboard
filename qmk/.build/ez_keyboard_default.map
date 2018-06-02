@@ -741,7 +741,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000     0x4fae
+.text           0x0000000000000000     0x50ae
  *(.vectors)
  .vectors       0x0000000000000000       0xac /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
                 0x0000000000000000                __vectors
@@ -761,267 +761,267 @@ END GROUP
                 0x00000000000000ac        0x0 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
                 0x00000000000000ac                fn_actions
  .progmem.data.keymaps
-                0x00000000000000ac       0x82 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
+                0x00000000000000ac      0x186 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
                 0x00000000000000ac                keymaps
  .progmem.data.__c.3215
-                0x000000000000012e       0x11 .build/obj_ez_keyboard_default/quantum/quantum.o
+                0x0000000000000232       0x11 .build/obj_ez_keyboard_default/quantum/quantum.o
  .progmem.data.__c.1962
-                0x000000000000013f        0x2 .build/obj_ez_keyboard_default/quantum/matrix.o
+                0x0000000000000243        0x2 .build/obj_ez_keyboard_default/quantum/matrix.o
  .progmem.data.__c.1960
-                0x0000000000000141        0x6 .build/obj_ez_keyboard_default/quantum/matrix.o
+                0x0000000000000245        0x6 .build/obj_ez_keyboard_default/quantum/matrix.o
  .progmem.data.__c.1958
-                0x0000000000000147        0x3 .build/obj_ez_keyboard_default/quantum/matrix.o
+                0x000000000000024b        0x3 .build/obj_ez_keyboard_default/quantum/matrix.o
  .progmem.data.__c.1956
-                0x000000000000014a        0x5 .build/obj_ez_keyboard_default/quantum/matrix.o
+                0x000000000000024e        0x5 .build/obj_ez_keyboard_default/quantum/matrix.o
  .progmem.data.__c.1953
-                0x000000000000014f       0x17 .build/obj_ez_keyboard_default/quantum/matrix.o
+                0x0000000000000253       0x17 .build/obj_ez_keyboard_default/quantum/matrix.o
  .progmem.data.__c.2039
-                0x0000000000000166        0x2 .build/obj_ez_keyboard_default/common/host.o
+                0x000000000000026a        0x2 .build/obj_ez_keyboard_default/common/host.o
  .progmem.data.__c.2034
-                0x0000000000000168        0x6 .build/obj_ez_keyboard_default/common/host.o
+                0x000000000000026c        0x6 .build/obj_ez_keyboard_default/common/host.o
  .progmem.data.__c.2031
-                0x000000000000016e       0x12 .build/obj_ez_keyboard_default/common/host.o
+                0x0000000000000272       0x12 .build/obj_ez_keyboard_default/common/host.o
  .progmem.data.__c.2772
-                0x0000000000000180        0x2 .build/obj_ez_keyboard_default/common/keyboard.o
+                0x0000000000000284        0x2 .build/obj_ez_keyboard_default/common/keyboard.o
  .progmem.data.__c.2770
-                0x0000000000000182        0x5 .build/obj_ez_keyboard_default/common/keyboard.o
+                0x0000000000000286        0x5 .build/obj_ez_keyboard_default/common/keyboard.o
  .progmem.data.__c.2768
-                0x0000000000000187       0x13 .build/obj_ez_keyboard_default/common/keyboard.o
+                0x000000000000028b       0x13 .build/obj_ez_keyboard_default/common/keyboard.o
  .progmem.data.__c.2115
-                0x000000000000019a        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x000000000000029e        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2113
-                0x000000000000019d        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002a1        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2111
-                0x00000000000001a0        0x2 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002a4        0x2 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2109
-                0x00000000000001a2        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002a6        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2107
-                0x00000000000001a5        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002a9        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2105
-                0x00000000000001a8        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002ac        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2103
-                0x00000000000001ab        0x2 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002af        0x2 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2101
-                0x00000000000001ad        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002b1        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2099
-                0x00000000000001b0        0x2 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002b4        0x2 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2097
-                0x00000000000001b2        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002b6        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2095
-                0x00000000000001b5        0x2 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002b9        0x2 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2093
-                0x00000000000001b7        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002bb        0x3 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2091
-                0x00000000000001ba        0x2 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002be        0x2 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2089
-                0x00000000000001bc        0x5 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002c0        0x5 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.2087
-                0x00000000000001c1       0x23 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000002c5       0x23 .build/obj_ez_keyboard_default/common/mousekey.o
  .progmem.data.__c.3400
-                0x00000000000001e4       0x1b .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000002e8       0x1b .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3397
-                0x00000000000001ff       0x19 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000303       0x19 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3394
-                0x0000000000000218       0x15 .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000031c       0x15 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3391
-                0x000000000000022d       0x13 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000331       0x13 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3388
-                0x0000000000000240       0x12 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000344       0x12 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3384
-                0x0000000000000252        0xf .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000356        0xf .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3377
-                0x0000000000000261       0x1b .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000365       0x1b .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3374
-                0x000000000000027c       0x19 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000380       0x19 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3371
-                0x0000000000000295       0x15 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000399       0x15 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3368
-                0x00000000000002aa       0x13 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000003ae       0x13 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3365
-                0x00000000000002bd       0x12 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000003c1       0x12 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3361
-                0x00000000000002cf        0xf .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000003d3        0xf .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3354
-                0x00000000000002de        0x2 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000003e2        0x2 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3352
-                0x00000000000002e0        0x3 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000003e4        0x3 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3350
-                0x00000000000002e3       0x17 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000003e7       0x17 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3348
-                0x00000000000002fa        0x2 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000003fe        0x2 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3346
-                0x00000000000002fc        0x3 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000400        0x3 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3344
-                0x00000000000002ff       0x15 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000403       0x15 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3342
-                0x0000000000000314        0x2 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000418        0x2 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3340
-                0x0000000000000316        0x3 .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000041a        0x3 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3338
-                0x0000000000000319       0x11 .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000041d       0x11 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3336
-                0x000000000000032a        0x2 .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000042e        0x2 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3334
-                0x000000000000032c        0x3 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000430        0x3 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3332
-                0x000000000000032f        0xf .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000433        0xf .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3330
-                0x000000000000033e        0x2 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000442        0x2 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3328
-                0x0000000000000340        0x3 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000444        0x3 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3326
-                0x0000000000000343       0x12 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000447       0x12 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3324
-                0x0000000000000355        0x2 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000459        0x2 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3322
-                0x0000000000000357        0x3 .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000045b        0x3 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3320
-                0x000000000000035a       0x12 .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000045e       0x12 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3318
-                0x000000000000036c        0xe .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000470        0xe .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3438
-                0x000000000000037a        0x3 .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000047e        0x3 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3436
-                0x000000000000037d        0x6 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000481        0x6 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3434
-                0x0000000000000383        0x2 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000487        0x2 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3431
-                0x0000000000000385        0xd .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000489        0xd .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3417
-                0x0000000000000392        0x4 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000496        0x4 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3407
-                0x0000000000000396       0x4e .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000049a       0x4e .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3405
-                0x00000000000003e4       0xfb .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000004e8       0xfb .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3310
-                0x00000000000004df        0x2 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000005e3        0x2 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3307
-                0x00000000000004e1        0x4 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000005e5        0x4 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3312
-                0x00000000000004e5        0x4 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000005e9        0x4 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3456
-                0x00000000000004e9        0x5 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000005ed        0x5 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3248
-                0x00000000000004ee       0x17 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000005f2       0x17 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3246
-                0x0000000000000505       0x13 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000609       0x13 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3244
-                0x0000000000000518       0x17 .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000061c       0x17 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3242
-                0x000000000000052f       0x1a .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000633       0x1a .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3240
-                0x0000000000000549        0xe .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000064d        0xe .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3235
-                0x0000000000000557       0x2b .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000065b       0x2b .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3233
-                0x0000000000000582       0x36 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000686       0x36 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3231
-                0x00000000000005b8       0x32 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000006bc       0x2e .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3229
-                0x00000000000005ea       0x37 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000006ea       0x37 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3227
-                0x0000000000000621       0x19 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000721       0x19 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3225
-                0x000000000000063a        0xf .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000073a        0xf .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3296
-                0x0000000000000649       0x27 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000749       0x27 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3220
-                0x0000000000000670      0x18c .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000770      0x18c .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3291
-                0x00000000000007fc        0x2 .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000008fc        0x2 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3280
-                0x00000000000007fe        0xd .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000008fe        0xd .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3278
-                0x000000000000080b        0xc .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000090b        0xc .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3275
-                0x0000000000000817       0x10 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000917       0x10 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3273
-                0x0000000000000827        0xf .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000927        0xf .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3270
-                0x0000000000000836        0xe .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000936        0xe .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3268
-                0x0000000000000844        0xd .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000944        0xd .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3265
-                0x0000000000000851        0xd .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000951        0xd .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3263
-                0x000000000000085e        0xc .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000095e        0xc .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3260
-                0x000000000000086a       0x1c .build/obj_ez_keyboard_default/common/command.o
+                0x000000000000096a       0x1c .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.3257
-                0x0000000000000886        0x4 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000000986        0x4 .build/obj_ez_keyboard_default/common/command.o
  .progmem.data.__c.5677
-                0x000000000000088a        0x4 .build/obj_ez_keyboard_default/lufa.o
+                0x000000000000098a        0x4 .build/obj_ez_keyboard_default/lufa.o
  .progmem.data.__c.5675
-                0x000000000000088e       0x11 .build/obj_ez_keyboard_default/lufa.o
+                0x000000000000098e       0x11 .build/obj_ez_keyboard_default/lufa.o
  .progmem.data.__c.5569
-                0x000000000000089f        0x4 .build/obj_ez_keyboard_default/lufa.o
+                0x000000000000099f        0x4 .build/obj_ez_keyboard_default/lufa.o
  .progmem.data.__c.5565
-                0x00000000000008a3        0x4 .build/obj_ez_keyboard_default/lufa.o
+                0x00000000000009a3        0x4 .build/obj_ez_keyboard_default/lufa.o
  .progmem.data.__c.5561
-                0x00000000000008a7        0x4 .build/obj_ez_keyboard_default/lufa.o
+                0x00000000000009a7        0x4 .build/obj_ez_keyboard_default/lufa.o
  .progmem.data.__c.5556
-                0x00000000000008ab        0x4 .build/obj_ez_keyboard_default/lufa.o
+                0x00000000000009ab        0x4 .build/obj_ez_keyboard_default/lufa.o
  .progmem.data.__c.5551
-                0x00000000000008af        0x4 .build/obj_ez_keyboard_default/lufa.o
+                0x00000000000009af        0x4 .build/obj_ez_keyboard_default/lufa.o
  .progmem.data.SerialNumberString
-                0x00000000000008b3        0x6 .build/obj_ez_keyboard_default/usb_descriptor.o
-                0x00000000000008b3                SerialNumberString
+                0x00000000000009b3        0x6 .build/obj_ez_keyboard_default/usb_descriptor.o
+                0x00000000000009b3                SerialNumberString
  .progmem.data.ProductString
-                0x00000000000008b9       0x1a .build/obj_ez_keyboard_default/usb_descriptor.o
-                0x00000000000008b9                ProductString
+                0x00000000000009b9       0x1a .build/obj_ez_keyboard_default/usb_descriptor.o
+                0x00000000000009b9                ProductString
  .progmem.data.ManufacturerString
-                0x00000000000008d3        0xa .build/obj_ez_keyboard_default/usb_descriptor.o
-                0x00000000000008d3                ManufacturerString
+                0x00000000000009d3        0xa .build/obj_ez_keyboard_default/usb_descriptor.o
+                0x00000000000009d3                ManufacturerString
  .progmem.data.LanguageString
-                0x00000000000008dd        0x4 .build/obj_ez_keyboard_default/usb_descriptor.o
-                0x00000000000008dd                LanguageString
+                0x00000000000009dd        0x4 .build/obj_ez_keyboard_default/usb_descriptor.o
+                0x00000000000009dd                LanguageString
  .progmem.data.ConfigurationDescriptor
-                0x00000000000008e1       0x74 .build/obj_ez_keyboard_default/usb_descriptor.o
-                0x00000000000008e1                ConfigurationDescriptor
+                0x00000000000009e1       0x74 .build/obj_ez_keyboard_default/usb_descriptor.o
+                0x00000000000009e1                ConfigurationDescriptor
  .progmem.data.DeviceDescriptor
-                0x0000000000000955       0x12 .build/obj_ez_keyboard_default/usb_descriptor.o
-                0x0000000000000955                DeviceDescriptor
+                0x0000000000000a55       0x12 .build/obj_ez_keyboard_default/usb_descriptor.o
+                0x0000000000000a55                DeviceDescriptor
  .progmem.data.ConsoleReport
-                0x0000000000000967       0x22 .build/obj_ez_keyboard_default/usb_descriptor.o
-                0x0000000000000967                ConsoleReport
+                0x0000000000000a67       0x22 .build/obj_ez_keyboard_default/usb_descriptor.o
+                0x0000000000000a67                ConsoleReport
  .progmem.data.ExtrakeyReport
-                0x0000000000000989       0x36 .build/obj_ez_keyboard_default/usb_descriptor.o
-                0x0000000000000989                ExtrakeyReport
+                0x0000000000000a89       0x36 .build/obj_ez_keyboard_default/usb_descriptor.o
+                0x0000000000000a89                ExtrakeyReport
  .progmem.data.MouseReport
-                0x00000000000009bf       0x4d .build/obj_ez_keyboard_default/usb_descriptor.o
-                0x00000000000009bf                MouseReport
+                0x0000000000000abf       0x4d .build/obj_ez_keyboard_default/usb_descriptor.o
+                0x0000000000000abf                MouseReport
  .progmem.data.KeyboardReport
-                0x0000000000000a0c       0x40 .build/obj_ez_keyboard_default/usb_descriptor.o
-                0x0000000000000a0c                KeyboardReport
-                0x0000000000000a4c                . = ALIGN (0x2)
+                0x0000000000000b0c       0x40 .build/obj_ez_keyboard_default/usb_descriptor.o
+                0x0000000000000b0c                KeyboardReport
+                0x0000000000000b4c                . = ALIGN (0x2)
  *(.lowtext)
  *(.lowtext*)
-                0x0000000000000a4c                __ctors_start = .
+                0x0000000000000b4c                __ctors_start = .
  *(.ctors)
-                0x0000000000000a4c                __ctors_end = .
-                0x0000000000000a4c                __dtors_start = .
+                0x0000000000000b4c                __ctors_end = .
+                0x0000000000000b4c                __dtors_start = .
  *(.dtors)
-                0x0000000000000a4c                __dtors_end = .
+                0x0000000000000b4c                __dtors_end = .
  SORT_BY_NAME(*)(.ctors)
  SORT_BY_NAME(*)(.dtors)
  *(.init0)
- .init0         0x0000000000000a4c        0x0 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
-                0x0000000000000a4c                __init
+ .init0         0x0000000000000b4c        0x0 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
+                0x0000000000000b4c                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x0000000000000a4c        0xc /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
+ .init2         0x0000000000000b4c        0xc /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
  *(.init2)
  *(.init3)
- .init3         0x0000000000000a58       0x54 .build/obj_ez_keyboard_default/common/avr/bootloader.o
-                0x0000000000000a58                bootloader_jump_after_watchdog_reset
+ .init3         0x0000000000000b58       0x54 .build/obj_ez_keyboard_default/common/avr/bootloader.o
+                0x0000000000000b58                bootloader_jump_after_watchdog_reset
  *(.init3)
  *(.init4)
- .init4         0x0000000000000aac       0x16 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
-                0x0000000000000aac                __do_copy_data
- .init4         0x0000000000000ac2       0x10 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
-                0x0000000000000ac2                __do_clear_bss
+ .init4         0x0000000000000bac       0x16 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000bac                __do_copy_data
+ .init4         0x0000000000000bc2       0x10 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000bc2                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
@@ -1032,614 +1032,614 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x0000000000000ad2        0x8 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
+ .init9         0x0000000000000bd2        0x8 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
  *(.init9)
  *(.text)
- .text          0x0000000000000ada        0x4 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
-                0x0000000000000ada                __vector_38
-                0x0000000000000ada                __vector_22
-                0x0000000000000ada                __vector_28
-                0x0000000000000ada                __vector_1
-                0x0000000000000ada                __vector_32
-                0x0000000000000ada                __vector_34
-                0x0000000000000ada                __vector_24
-                0x0000000000000ada                __bad_interrupt
-                0x0000000000000ada                __vector_6
-                0x0000000000000ada                __vector_31
-                0x0000000000000ada                __vector_35
-                0x0000000000000ada                __vector_39
-                0x0000000000000ada                __vector_3
-                0x0000000000000ada                __vector_23
-                0x0000000000000ada                __vector_30
-                0x0000000000000ada                __vector_25
-                0x0000000000000ada                __vector_13
-                0x0000000000000ada                __vector_17
-                0x0000000000000ada                __vector_19
-                0x0000000000000ada                __vector_7
-                0x0000000000000ada                __vector_41
-                0x0000000000000ada                __vector_27
-                0x0000000000000ada                __vector_5
-                0x0000000000000ada                __vector_33
-                0x0000000000000ada                __vector_37
-                0x0000000000000ada                __vector_4
-                0x0000000000000ada                __vector_9
-                0x0000000000000ada                __vector_2
-                0x0000000000000ada                __vector_15
-                0x0000000000000ada                __vector_36
-                0x0000000000000ada                __vector_29
-                0x0000000000000ada                __vector_40
-                0x0000000000000ada                __vector_8
-                0x0000000000000ada                __vector_26
-                0x0000000000000ada                __vector_14
-                0x0000000000000ada                __vector_16
-                0x0000000000000ada                __vector_18
-                0x0000000000000ada                __vector_20
-                0x0000000000000ada                __vector_42
- .text          0x0000000000000ade      0x15c .build/obj_ez_keyboard_default/common/avr/xprintf.o
-                0x0000000000000ade                xputc
-                0x0000000000000af6                xputs
-                0x0000000000000b04                xitoa
-                0x0000000000000c28                __xprintf
-                0x0000000000000c3a                . = ALIGN (0x2)
+ .text          0x0000000000000bda        0x4 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
+                0x0000000000000bda                __vector_38
+                0x0000000000000bda                __vector_22
+                0x0000000000000bda                __vector_28
+                0x0000000000000bda                __vector_1
+                0x0000000000000bda                __vector_32
+                0x0000000000000bda                __vector_34
+                0x0000000000000bda                __vector_24
+                0x0000000000000bda                __bad_interrupt
+                0x0000000000000bda                __vector_6
+                0x0000000000000bda                __vector_31
+                0x0000000000000bda                __vector_35
+                0x0000000000000bda                __vector_39
+                0x0000000000000bda                __vector_3
+                0x0000000000000bda                __vector_23
+                0x0000000000000bda                __vector_30
+                0x0000000000000bda                __vector_25
+                0x0000000000000bda                __vector_13
+                0x0000000000000bda                __vector_17
+                0x0000000000000bda                __vector_19
+                0x0000000000000bda                __vector_7
+                0x0000000000000bda                __vector_41
+                0x0000000000000bda                __vector_27
+                0x0000000000000bda                __vector_5
+                0x0000000000000bda                __vector_33
+                0x0000000000000bda                __vector_37
+                0x0000000000000bda                __vector_4
+                0x0000000000000bda                __vector_9
+                0x0000000000000bda                __vector_2
+                0x0000000000000bda                __vector_15
+                0x0000000000000bda                __vector_36
+                0x0000000000000bda                __vector_29
+                0x0000000000000bda                __vector_40
+                0x0000000000000bda                __vector_8
+                0x0000000000000bda                __vector_26
+                0x0000000000000bda                __vector_14
+                0x0000000000000bda                __vector_16
+                0x0000000000000bda                __vector_18
+                0x0000000000000bda                __vector_20
+                0x0000000000000bda                __vector_42
+ .text          0x0000000000000bde      0x15c .build/obj_ez_keyboard_default/common/avr/xprintf.o
+                0x0000000000000bde                xputc
+                0x0000000000000bf6                xputs
+                0x0000000000000c04                xitoa
+                0x0000000000000d28                __xprintf
+                0x0000000000000d3a                . = ALIGN (0x2)
  *(.text.*)
  .text.matrix_init_kb
-                0x0000000000000c3a        0x4 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
-                0x0000000000000c3a                matrix_init_kb
+                0x0000000000000d3a        0x4 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
+                0x0000000000000d3a                matrix_init_kb
  .text.matrix_scan_kb
-                0x0000000000000c3e        0x4 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
-                0x0000000000000c3e                matrix_scan_kb
+                0x0000000000000d3e        0x4 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
+                0x0000000000000d3e                matrix_scan_kb
  .text.process_record_kb
-                0x0000000000000c42        0x4 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
-                0x0000000000000c42                process_record_kb
+                0x0000000000000d42        0x4 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
+                0x0000000000000d42                process_record_kb
  .text.led_set_kb
-                0x0000000000000c46        0x4 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
-                0x0000000000000c46                led_set_kb
+                0x0000000000000d46        0x4 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
+                0x0000000000000d46                led_set_kb
  .text.action_get_macro
-                0x0000000000000c4a       0x20 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
-                0x0000000000000c4a                action_get_macro
+                0x0000000000000d4a       0x20 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
+                0x0000000000000d4a                action_get_macro
  .text.matrix_init_user
-                0x0000000000000c6a        0x2 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
-                0x0000000000000c6a                matrix_init_user
+                0x0000000000000d6a        0x2 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
+                0x0000000000000d6a                matrix_init_user
  .text.matrix_scan_user
-                0x0000000000000c6c        0x2 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
-                0x0000000000000c6c                matrix_scan_user
+                0x0000000000000d6c        0x2 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
+                0x0000000000000d6c                matrix_scan_user
  .text.process_record_user
-                0x0000000000000c6e        0x4 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
-                0x0000000000000c6e                process_record_user
+                0x0000000000000d6e        0x4 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
+                0x0000000000000d6e                process_record_user
  .text.led_set_user
-                0x0000000000000c72        0x2 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
-                0x0000000000000c72                led_set_user
+                0x0000000000000d72        0x2 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
+                0x0000000000000d72                led_set_user
  .text.process_action_kb
-                0x0000000000000c74        0x4 .build/obj_ez_keyboard_default/quantum/quantum.o
-                0x0000000000000c74                process_action_kb
+                0x0000000000000d74        0x4 .build/obj_ez_keyboard_default/quantum/quantum.o
+                0x0000000000000d74                process_action_kb
  .text.reset_keyboard
-                0x0000000000000c78       0x1a .build/obj_ez_keyboard_default/quantum/quantum.o
-                0x0000000000000c78                reset_keyboard
+                0x0000000000000d78       0x1a .build/obj_ez_keyboard_default/quantum/quantum.o
+                0x0000000000000d78                reset_keyboard
  .text.process_record_quantum
-                0x0000000000000c92      0x2fc .build/obj_ez_keyboard_default/quantum/quantum.o
-                0x0000000000000c92                process_record_quantum
+                0x0000000000000d92      0x2fc .build/obj_ez_keyboard_default/quantum/quantum.o
+                0x0000000000000d92                process_record_quantum
  .text.matrix_init_quantum
-                0x0000000000000f8e        0x4 .build/obj_ez_keyboard_default/quantum/quantum.o
-                0x0000000000000f8e                matrix_init_quantum
+                0x000000000000108e        0x4 .build/obj_ez_keyboard_default/quantum/quantum.o
+                0x000000000000108e                matrix_init_quantum
  .text.matrix_scan_quantum
-                0x0000000000000f92        0x4 .build/obj_ez_keyboard_default/quantum/quantum.o
-                0x0000000000000f92                matrix_scan_quantum
- .text.led_set  0x0000000000000f96        0x4 .build/obj_ez_keyboard_default/quantum/quantum.o
-                0x0000000000000f96                led_set
+                0x0000000000001092        0x4 .build/obj_ez_keyboard_default/quantum/quantum.o
+                0x0000000000001092                matrix_scan_quantum
+ .text.led_set  0x0000000000001096        0x4 .build/obj_ez_keyboard_default/quantum/quantum.o
+                0x0000000000001096                led_set
  .text.action_function
-                0x0000000000000f9a        0x2 .build/obj_ez_keyboard_default/quantum/keymap_common.o
-                0x0000000000000f9a                action_function
+                0x000000000000109a        0x2 .build/obj_ez_keyboard_default/quantum/keymap_common.o
+                0x000000000000109a                action_function
  .text.keymap_key_to_keycode
-                0x0000000000000f9c       0x28 .build/obj_ez_keyboard_default/quantum/keymap_common.o
-                0x0000000000000f9c                keymap_key_to_keycode
+                0x000000000000109c       0x28 .build/obj_ez_keyboard_default/quantum/keymap_common.o
+                0x000000000000109c                keymap_key_to_keycode
  .text.keymap_function_id_to_action
-                0x0000000000000fc4       0x10 .build/obj_ez_keyboard_default/quantum/keymap_common.o
-                0x0000000000000fc4                keymap_function_id_to_action
+                0x00000000000010c4       0x10 .build/obj_ez_keyboard_default/quantum/keymap_common.o
+                0x00000000000010c4                keymap_function_id_to_action
  .text.action_for_key
-                0x0000000000000fd4      0x348 .build/obj_ez_keyboard_default/quantum/keymap_common.o
-                0x0000000000000fd4                action_for_key
+                0x00000000000010d4      0x348 .build/obj_ez_keyboard_default/quantum/keymap_common.o
+                0x00000000000010d4                action_for_key
  .text.keycode_config
-                0x000000000000131c      0x100 .build/obj_ez_keyboard_default/quantum/keycode_config.o
-                0x000000000000131c                keycode_config
+                0x000000000000141c      0x100 .build/obj_ez_keyboard_default/quantum/keycode_config.o
+                0x000000000000141c                keycode_config
  .text.mod_config
-                0x000000000000141c       0x46 .build/obj_ez_keyboard_default/quantum/keycode_config.o
-                0x000000000000141c                mod_config
+                0x000000000000151c       0x46 .build/obj_ez_keyboard_default/quantum/keycode_config.o
+                0x000000000000151c                mod_config
  .text.leader_start
-                0x0000000000001462        0x2 .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
-                0x0000000000001462                leader_start
+                0x0000000000001562        0x2 .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
+                0x0000000000001562                leader_start
  .text.process_leader
-                0x0000000000001464       0x9e .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
-                0x0000000000001464                process_leader
+                0x0000000000001564       0x9e .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
+                0x0000000000001564                process_leader
  .text.matrix_init
-                0x0000000000001502       0xd6 .build/obj_ez_keyboard_default/quantum/matrix.o
-                0x0000000000001502                matrix_init
+                0x0000000000001602       0xd6 .build/obj_ez_keyboard_default/quantum/matrix.o
+                0x0000000000001602                matrix_init
  .text.matrix_scan
-                0x00000000000015d8      0x184 .build/obj_ez_keyboard_default/quantum/matrix.o
-                0x00000000000015d8                matrix_scan
+                0x00000000000016d8      0x184 .build/obj_ez_keyboard_default/quantum/matrix.o
+                0x00000000000016d8                matrix_scan
  .text.matrix_get_row
-                0x000000000000175c       0x12 .build/obj_ez_keyboard_default/quantum/matrix.o
-                0x000000000000175c                matrix_get_row
+                0x000000000000185c       0x12 .build/obj_ez_keyboard_default/quantum/matrix.o
+                0x000000000000185c                matrix_get_row
  .text.matrix_print
-                0x000000000000176e       0x8e .build/obj_ez_keyboard_default/quantum/matrix.o
-                0x000000000000176e                matrix_print
+                0x000000000000186e       0x8e .build/obj_ez_keyboard_default/quantum/matrix.o
+                0x000000000000186e                matrix_print
  .text.host_set_driver
-                0x00000000000017fc        0xa .build/obj_ez_keyboard_default/common/host.o
-                0x00000000000017fc                host_set_driver
+                0x00000000000018fc        0xa .build/obj_ez_keyboard_default/common/host.o
+                0x00000000000018fc                host_set_driver
  .text.host_keyboard_leds
-                0x0000000000001806       0x18 .build/obj_ez_keyboard_default/common/host.o
-                0x0000000000001806                host_keyboard_leds
+                0x0000000000001906       0x18 .build/obj_ez_keyboard_default/common/host.o
+                0x0000000000001906                host_keyboard_leds
  .text.host_keyboard_send
-                0x000000000000181e       0x98 .build/obj_ez_keyboard_default/common/host.o
-                0x000000000000181e                host_keyboard_send
+                0x000000000000191e       0x98 .build/obj_ez_keyboard_default/common/host.o
+                0x000000000000191e                host_keyboard_send
  .text.host_mouse_send
-                0x00000000000018b6       0x16 .build/obj_ez_keyboard_default/common/host.o
-                0x00000000000018b6                host_mouse_send
+                0x00000000000019b6       0x16 .build/obj_ez_keyboard_default/common/host.o
+                0x00000000000019b6                host_mouse_send
  .text.host_system_send
-                0x00000000000018cc       0x2c .build/obj_ez_keyboard_default/common/host.o
-                0x00000000000018cc                host_system_send
+                0x00000000000019cc       0x2c .build/obj_ez_keyboard_default/common/host.o
+                0x00000000000019cc                host_system_send
  .text.host_consumer_send
-                0x00000000000018f8       0x2c .build/obj_ez_keyboard_default/common/host.o
-                0x00000000000018f8                host_consumer_send
+                0x00000000000019f8       0x2c .build/obj_ez_keyboard_default/common/host.o
+                0x00000000000019f8                host_consumer_send
  .text.matrix_setup
-                0x0000000000001924        0x2 .build/obj_ez_keyboard_default/common/keyboard.o
-                0x0000000000001924                matrix_setup
+                0x0000000000001a24        0x2 .build/obj_ez_keyboard_default/common/keyboard.o
+                0x0000000000001a24                matrix_setup
  .text.keyboard_setup
-                0x0000000000001926        0x4 .build/obj_ez_keyboard_default/common/keyboard.o
-                0x0000000000001926                keyboard_setup
+                0x0000000000001a26        0x4 .build/obj_ez_keyboard_default/common/keyboard.o
+                0x0000000000001a26                keyboard_setup
  .text.is_keyboard_master
-                0x000000000000192a        0x4 .build/obj_ez_keyboard_default/common/keyboard.o
-                0x000000000000192a                is_keyboard_master
+                0x0000000000001a2a        0x4 .build/obj_ez_keyboard_default/common/keyboard.o
+                0x0000000000001a2a                is_keyboard_master
  .text.keyboard_init
-                0x000000000000192e        0xc .build/obj_ez_keyboard_default/common/keyboard.o
-                0x000000000000192e                keyboard_init
+                0x0000000000001a2e        0xc .build/obj_ez_keyboard_default/common/keyboard.o
+                0x0000000000001a2e                keyboard_init
  .text.keyboard_set_leds
-                0x000000000000193a       0x50 .build/obj_ez_keyboard_default/common/keyboard.o
-                0x000000000000193a                keyboard_set_leds
+                0x0000000000001a3a       0x50 .build/obj_ez_keyboard_default/common/keyboard.o
+                0x0000000000001a3a                keyboard_set_leds
  .text.keyboard_task
-                0x000000000000198a      0x17e .build/obj_ez_keyboard_default/common/keyboard.o
-                0x000000000000198a                keyboard_task
+                0x0000000000001a8a      0x17e .build/obj_ez_keyboard_default/common/keyboard.o
+                0x0000000000001a8a                keyboard_task
  .text.action_exec
-                0x0000000000001b08       0x54 .build/obj_ez_keyboard_default/common/action.o
-                0x0000000000001b08                action_exec
+                0x0000000000001c08       0x54 .build/obj_ez_keyboard_default/common/action.o
+                0x0000000000001c08                action_exec
  .text.process_record_tap_hint
-                0x0000000000001b5c        0xa .build/obj_ez_keyboard_default/common/action.o
-                0x0000000000001b5c                process_record_tap_hint
+                0x0000000000001c5c        0xa .build/obj_ez_keyboard_default/common/action.o
+                0x0000000000001c5c                process_record_tap_hint
  .text.register_code
-                0x0000000000001b66      0x1b6 .build/obj_ez_keyboard_default/common/action.o
-                0x0000000000001b66                register_code
+                0x0000000000001c66      0x1b6 .build/obj_ez_keyboard_default/common/action.o
+                0x0000000000001c66                register_code
  .text.unregister_code
-                0x0000000000001d1c       0x9e .build/obj_ez_keyboard_default/common/action.o
-                0x0000000000001d1c                unregister_code
+                0x0000000000001e1c       0x9e .build/obj_ez_keyboard_default/common/action.o
+                0x0000000000001e1c                unregister_code
  .text.register_mods
-                0x0000000000001dba        0xe .build/obj_ez_keyboard_default/common/action.o
-                0x0000000000001dba                register_mods
+                0x0000000000001eba        0xe .build/obj_ez_keyboard_default/common/action.o
+                0x0000000000001eba                register_mods
  .text.unregister_mods
-                0x0000000000001dc8        0xe .build/obj_ez_keyboard_default/common/action.o
-                0x0000000000001dc8                unregister_mods
+                0x0000000000001ec8        0xe .build/obj_ez_keyboard_default/common/action.o
+                0x0000000000001ec8                unregister_mods
  .text.process_action
-                0x0000000000001dd6      0x504 .build/obj_ez_keyboard_default/common/action.o
-                0x0000000000001dd6                process_action
+                0x0000000000001ed6      0x504 .build/obj_ez_keyboard_default/common/action.o
+                0x0000000000001ed6                process_action
  .text.process_record
-                0x00000000000022da       0x62 .build/obj_ez_keyboard_default/common/action.o
-                0x00000000000022da                process_record
+                0x00000000000023da       0x62 .build/obj_ez_keyboard_default/common/action.o
+                0x00000000000023da                process_record
  .text.clear_keyboard_but_mods
-                0x000000000000233c       0x28 .build/obj_ez_keyboard_default/common/action.o
-                0x000000000000233c                clear_keyboard_but_mods
+                0x000000000000243c       0x28 .build/obj_ez_keyboard_default/common/action.o
+                0x000000000000243c                clear_keyboard_but_mods
  .text.clear_keyboard
-                0x0000000000002364        0x8 .build/obj_ez_keyboard_default/common/action.o
-                0x0000000000002364                clear_keyboard
+                0x0000000000002464        0x8 .build/obj_ez_keyboard_default/common/action.o
+                0x0000000000002464                clear_keyboard
  .text.is_tap_key
-                0x000000000000236c       0x5e .build/obj_ez_keyboard_default/common/action.o
-                0x000000000000236c                is_tap_key
+                0x000000000000246c       0x5e .build/obj_ez_keyboard_default/common/action.o
+                0x000000000000246c                is_tap_key
  .text.debug_event
-                0x00000000000023ca       0x1e .build/obj_ez_keyboard_default/common/action.o
-                0x00000000000023ca                debug_event
+                0x00000000000024ca       0x1e .build/obj_ez_keyboard_default/common/action.o
+                0x00000000000024ca                debug_event
  .text.debug_record
-                0x00000000000023e8       0x20 .build/obj_ez_keyboard_default/common/action.o
-                0x00000000000023e8                debug_record
+                0x00000000000024e8       0x20 .build/obj_ez_keyboard_default/common/action.o
+                0x00000000000024e8                debug_record
  .text.debug_waiting_buffer
-                0x0000000000002408       0x42 .build/obj_ez_keyboard_default/common/action_tapping.o
+                0x0000000000002508       0x42 .build/obj_ez_keyboard_default/common/action_tapping.o
  .text.debug_tapping_key
-                0x000000000000244a       0x1c .build/obj_ez_keyboard_default/common/action_tapping.o
+                0x000000000000254a       0x1c .build/obj_ez_keyboard_default/common/action_tapping.o
  .text.waiting_buffer_scan_tap
-                0x0000000000002466       0xd6 .build/obj_ez_keyboard_default/common/action_tapping.o
+                0x0000000000002566       0xd6 .build/obj_ez_keyboard_default/common/action_tapping.o
  .text.process_tapping
-                0x000000000000253c      0x3a8 .build/obj_ez_keyboard_default/common/action_tapping.o
+                0x000000000000263c      0x3a8 .build/obj_ez_keyboard_default/common/action_tapping.o
  .text.action_tapping_process
-                0x00000000000028e4      0x152 .build/obj_ez_keyboard_default/common/action_tapping.o
-                0x00000000000028e4                action_tapping_process
+                0x00000000000029e4      0x152 .build/obj_ez_keyboard_default/common/action_tapping.o
+                0x00000000000029e4                action_tapping_process
  .text.action_macro_play
-                0x0000000000002a36       0xf0 .build/obj_ez_keyboard_default/common/action_macro.o
-                0x0000000000002a36                action_macro_play
+                0x0000000000002b36       0xf0 .build/obj_ez_keyboard_default/common/action_macro.o
+                0x0000000000002b36                action_macro_play
  .text.default_layer_state_set_kb
-                0x0000000000002b26        0x2 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002b26                default_layer_state_set_kb
+                0x0000000000002c26        0x2 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002c26                default_layer_state_set_kb
  .text.default_layer_state_set
-                0x0000000000002b28       0x18 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002c28       0x18 .build/obj_ez_keyboard_default/common/action_layer.o
  .text.default_layer_debug
-                0x0000000000002b40        0x2 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002b40                default_layer_debug
+                0x0000000000002c40        0x2 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002c40                default_layer_debug
  .text.default_layer_set
-                0x0000000000002b42        0x4 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002b42                default_layer_set
+                0x0000000000002c42        0x4 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002c42                default_layer_set
  .text.default_layer_or
-                0x0000000000002b46       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002b46                default_layer_or
+                0x0000000000002c46       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002c46                default_layer_or
  .text.default_layer_and
-                0x0000000000002b6a       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002b6a                default_layer_and
+                0x0000000000002c6a       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002c6a                default_layer_and
  .text.default_layer_xor
-                0x0000000000002b8e       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002b8e                default_layer_xor
+                0x0000000000002c8e       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002c8e                default_layer_xor
  .text.layer_state_set_user
-                0x0000000000002bb2        0x4 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002bb2                layer_state_set_user
+                0x0000000000002cb2        0x4 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002cb2                layer_state_set_user
  .text.layer_state_set_kb
-                0x0000000000002bb6        0x4 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002bb6                layer_state_set_kb
+                0x0000000000002cb6        0x4 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002cb6                layer_state_set_kb
  .text.layer_state_set
-                0x0000000000002bba       0x18 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002bba                layer_state_set
+                0x0000000000002cba       0x18 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002cba                layer_state_set
  .text.layer_clear
-                0x0000000000002bd2        0xa .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002bd2                layer_clear
+                0x0000000000002cd2        0xa .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002cd2                layer_clear
  .text.layer_move
-                0x0000000000002bdc       0x2a .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002bdc                layer_move
+                0x0000000000002cdc       0x2a .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002cdc                layer_move
  .text.layer_on
-                0x0000000000002c06       0x42 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002c06                layer_on
+                0x0000000000002d06       0x42 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002d06                layer_on
  .text.layer_off
-                0x0000000000002c48       0x46 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002c48                layer_off
+                0x0000000000002d48       0x46 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002d48                layer_off
  .text.layer_invert
-                0x0000000000002c8e       0x42 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002c8e                layer_invert
+                0x0000000000002d8e       0x42 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002d8e                layer_invert
  .text.layer_or
-                0x0000000000002cd0       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002cd0                layer_or
+                0x0000000000002dd0       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002dd0                layer_or
  .text.layer_and
-                0x0000000000002cf4       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002cf4                layer_and
+                0x0000000000002df4       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002df4                layer_and
  .text.layer_xor
-                0x0000000000002d18       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002d18                layer_xor
+                0x0000000000002e18       0x24 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002e18                layer_xor
  .text.layer_debug
-                0x0000000000002d3c        0x2 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002d3c                layer_debug
+                0x0000000000002e3c        0x2 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002e3c                layer_debug
  .text.layer_switch_get_layer
-                0x0000000000002d3e       0x84 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002d3e                layer_switch_get_layer
+                0x0000000000002e3e       0x84 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002e3e                layer_switch_get_layer
  .text.layer_switch_get_action
-                0x0000000000002dc2       0x14 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002dc2                layer_switch_get_action
+                0x0000000000002ec2       0x14 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002ec2                layer_switch_get_action
  .text.store_or_get_action
-                0x0000000000002dd6        0x6 .build/obj_ez_keyboard_default/common/action_layer.o
-                0x0000000000002dd6                store_or_get_action
- .text.add_key  0x0000000000002ddc        0xe .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002ddc                add_key
- .text.del_key  0x0000000000002dea        0xe .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002dea                del_key
+                0x0000000000002ed6        0x6 .build/obj_ez_keyboard_default/common/action_layer.o
+                0x0000000000002ed6                store_or_get_action
+ .text.add_key  0x0000000000002edc        0xe .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002edc                add_key
+ .text.del_key  0x0000000000002eea        0xe .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002eea                del_key
  .text.clear_keys
-                0x0000000000002df8        0xc .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002df8                clear_keys
+                0x0000000000002ef8        0xc .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002ef8                clear_keys
  .text.get_oneshot_layer
-                0x0000000000002e04        0xc .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002e04                get_oneshot_layer
+                0x0000000000002f04        0xc .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002f04                get_oneshot_layer
  .text.get_oneshot_layer_state
-                0x0000000000002e10        0x8 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002e10                get_oneshot_layer_state
+                0x0000000000002f10        0x8 .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002f10                get_oneshot_layer_state
  .text.set_oneshot_layer
-                0x0000000000002e18       0x12 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002e18                set_oneshot_layer
+                0x0000000000002f18       0x12 .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002f18                set_oneshot_layer
  .text.clear_oneshot_layer_state
-                0x0000000000002e2a       0x2c .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002e2a                clear_oneshot_layer_state
+                0x0000000000002f2a       0x2c .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002f2a                clear_oneshot_layer_state
  .text.is_oneshot_layer_active
-                0x0000000000002e56        0xe .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002e56                is_oneshot_layer_active
+                0x0000000000002f56        0xe .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002f56                is_oneshot_layer_active
  .text.send_keyboard_report
-                0x0000000000002e64       0x66 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002e64                send_keyboard_report
+                0x0000000000002f64       0x66 .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002f64                send_keyboard_report
  .text.get_mods
-                0x0000000000002eca        0x6 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002eca                get_mods
+                0x0000000000002fca        0x6 .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002fca                get_mods
  .text.add_mods
-                0x0000000000002ed0        0xc .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002ed0                add_mods
+                0x0000000000002fd0        0xc .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002fd0                add_mods
  .text.del_mods
-                0x0000000000002edc       0x10 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002edc                del_mods
+                0x0000000000002fdc       0x10 .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002fdc                del_mods
  .text.clear_mods
-                0x0000000000002eec        0x6 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002eec                clear_mods
+                0x0000000000002fec        0x6 .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002fec                clear_mods
  .text.add_weak_mods
-                0x0000000000002ef2        0xc .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002ef2                add_weak_mods
+                0x0000000000002ff2        0xc .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002ff2                add_weak_mods
  .text.del_weak_mods
-                0x0000000000002efe       0x10 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002efe                del_weak_mods
+                0x0000000000002ffe       0x10 .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000002ffe                del_weak_mods
  .text.clear_weak_mods
-                0x0000000000002f0e        0x6 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002f0e                clear_weak_mods
+                0x000000000000300e        0x6 .build/obj_ez_keyboard_default/common/action_util.o
+                0x000000000000300e                clear_weak_mods
  .text.add_macro_mods
-                0x0000000000002f14        0xc .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002f14                add_macro_mods
+                0x0000000000003014        0xc .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000003014                add_macro_mods
  .text.del_macro_mods
-                0x0000000000002f20       0x10 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002f20                del_macro_mods
+                0x0000000000003020       0x10 .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000003020                del_macro_mods
  .text.clear_macro_mods
-                0x0000000000002f30        0x6 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002f30                clear_macro_mods
+                0x0000000000003030        0x6 .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000003030                clear_macro_mods
  .text.set_oneshot_mods
-                0x0000000000002f36        0x6 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002f36                set_oneshot_mods
+                0x0000000000003036        0x6 .build/obj_ez_keyboard_default/common/action_util.o
+                0x0000000000003036                set_oneshot_mods
  .text.clear_oneshot_mods
-                0x0000000000002f3c        0x6 .build/obj_ez_keyboard_default/common/action_util.o
-                0x0000000000002f3c                clear_oneshot_mods
+                0x000000000000303c        0x6 .build/obj_ez_keyboard_default/common/action_util.o
+                0x000000000000303c                clear_oneshot_mods
  .text.print_set_sendchar
-                0x0000000000002f42        0xa .build/obj_ez_keyboard_default/common/print.o
-                0x0000000000002f42                print_set_sendchar
- .text.bitrev   0x0000000000002f4c       0x30 .build/obj_ez_keyboard_default/common/util.o
-                0x0000000000002f4c                bitrev
+                0x0000000000003042        0xa .build/obj_ez_keyboard_default/common/print.o
+                0x0000000000003042                print_set_sendchar
+ .text.bitrev   0x000000000000304c       0x30 .build/obj_ez_keyboard_default/common/util.o
+                0x000000000000304c                bitrev
  .text.bitrev16
-                0x0000000000002f7c       0x1a .build/obj_ez_keyboard_default/common/util.o
-                0x0000000000002f7c                bitrev16
+                0x000000000000307c       0x1a .build/obj_ez_keyboard_default/common/util.o
+                0x000000000000307c                bitrev16
  .text.eeconfig_init
-                0x0000000000002f96       0x34 .build/obj_ez_keyboard_default/common/eeconfig.o
-                0x0000000000002f96                eeconfig_init
+                0x0000000000003096       0x34 .build/obj_ez_keyboard_default/common/eeconfig.o
+                0x0000000000003096                eeconfig_init
  .text.eeconfig_is_enabled
-                0x0000000000002fca       0x16 .build/obj_ez_keyboard_default/common/eeconfig.o
-                0x0000000000002fca                eeconfig_is_enabled
+                0x00000000000030ca       0x16 .build/obj_ez_keyboard_default/common/eeconfig.o
+                0x00000000000030ca                eeconfig_is_enabled
  .text.eeconfig_read_debug
-                0x0000000000002fe0        0x8 .build/obj_ez_keyboard_default/common/eeconfig.o
-                0x0000000000002fe0                eeconfig_read_debug
+                0x00000000000030e0        0x8 .build/obj_ez_keyboard_default/common/eeconfig.o
+                0x00000000000030e0                eeconfig_read_debug
  .text.eeconfig_read_default_layer
-                0x0000000000002fe8        0x8 .build/obj_ez_keyboard_default/common/eeconfig.o
-                0x0000000000002fe8                eeconfig_read_default_layer
+                0x00000000000030e8        0x8 .build/obj_ez_keyboard_default/common/eeconfig.o
+                0x00000000000030e8                eeconfig_read_default_layer
  .text.eeconfig_read_keymap
-                0x0000000000002ff0        0x8 .build/obj_ez_keyboard_default/common/eeconfig.o
-                0x0000000000002ff0                eeconfig_read_keymap
+                0x00000000000030f0        0x8 .build/obj_ez_keyboard_default/common/eeconfig.o
+                0x00000000000030f0                eeconfig_read_keymap
  .text.eeconfig_update_keymap
-                0x0000000000002ff8        0xa .build/obj_ez_keyboard_default/common/eeconfig.o
-                0x0000000000002ff8                eeconfig_update_keymap
+                0x00000000000030f8        0xa .build/obj_ez_keyboard_default/common/eeconfig.o
+                0x00000000000030f8                eeconfig_update_keymap
  .text.has_anykey
-                0x0000000000003002       0x1a .build/obj_ez_keyboard_default/common/report.o
-                0x0000000000003002                has_anykey
+                0x0000000000003102       0x1a .build/obj_ez_keyboard_default/common/report.o
+                0x0000000000003102                has_anykey
  .text.add_key_byte
-                0x000000000000301c       0x34 .build/obj_ez_keyboard_default/common/report.o
-                0x000000000000301c                add_key_byte
+                0x000000000000311c       0x34 .build/obj_ez_keyboard_default/common/report.o
+                0x000000000000311c                add_key_byte
  .text.del_key_byte
-                0x0000000000003050       0x1a .build/obj_ez_keyboard_default/common/report.o
-                0x0000000000003050                del_key_byte
+                0x0000000000003150       0x1a .build/obj_ez_keyboard_default/common/report.o
+                0x0000000000003150                del_key_byte
  .text.add_key_to_report
-                0x000000000000306a        0x4 .build/obj_ez_keyboard_default/common/report.o
-                0x000000000000306a                add_key_to_report
+                0x000000000000316a        0x4 .build/obj_ez_keyboard_default/common/report.o
+                0x000000000000316a                add_key_to_report
  .text.del_key_from_report
-                0x000000000000306e        0x4 .build/obj_ez_keyboard_default/common/report.o
-                0x000000000000306e                del_key_from_report
+                0x000000000000316e        0x4 .build/obj_ez_keyboard_default/common/report.o
+                0x000000000000316e                del_key_from_report
  .text.clear_keys_from_report
-                0x0000000000003072       0x12 .build/obj_ez_keyboard_default/common/report.o
-                0x0000000000003072                clear_keys_from_report
+                0x0000000000003172       0x12 .build/obj_ez_keyboard_default/common/report.o
+                0x0000000000003172                clear_keys_from_report
  .text.suspend_power_down
-                0x0000000000003084       0x58 .build/obj_ez_keyboard_default/common/avr/suspend.o
-                0x0000000000003084                suspend_power_down
+                0x0000000000003184       0x58 .build/obj_ez_keyboard_default/common/avr/suspend.o
+                0x0000000000003184                suspend_power_down
  .text.matrix_power_up
-                0x00000000000030dc        0x2 .build/obj_ez_keyboard_default/common/avr/suspend.o
-                0x00000000000030dc                matrix_power_up
+                0x00000000000031dc        0x2 .build/obj_ez_keyboard_default/common/avr/suspend.o
+                0x00000000000031dc                matrix_power_up
  .text.matrix_power_down
-                0x00000000000030de        0x2 .build/obj_ez_keyboard_default/common/avr/suspend.o
-                0x00000000000030de                matrix_power_down
+                0x00000000000031de        0x2 .build/obj_ez_keyboard_default/common/avr/suspend.o
+                0x00000000000031de                matrix_power_down
  .text.suspend_wakeup_condition
-                0x00000000000030e0       0x2a .build/obj_ez_keyboard_default/common/avr/suspend.o
-                0x00000000000030e0                suspend_wakeup_condition
+                0x00000000000031e0       0x2a .build/obj_ez_keyboard_default/common/avr/suspend.o
+                0x00000000000031e0                suspend_wakeup_condition
  .text.suspend_wakeup_init
-                0x000000000000310a        0xc .build/obj_ez_keyboard_default/common/avr/suspend.o
-                0x000000000000310a                suspend_wakeup_init
+                0x000000000000320a        0xc .build/obj_ez_keyboard_default/common/avr/suspend.o
+                0x000000000000320a                suspend_wakeup_init
  .text.__vector_12
-                0x0000000000003116       0x52 .build/obj_ez_keyboard_default/common/avr/suspend.o
-                0x0000000000003116                __vector_12
+                0x0000000000003216       0x52 .build/obj_ez_keyboard_default/common/avr/suspend.o
+                0x0000000000003216                __vector_12
  .text.timer_init
-                0x0000000000003168       0x12 .build/obj_ez_keyboard_default/common/avr/timer.o
-                0x0000000000003168                timer_init
+                0x0000000000003268       0x12 .build/obj_ez_keyboard_default/common/avr/timer.o
+                0x0000000000003268                timer_init
  .text.timer_read
-                0x000000000000317a       0x18 .build/obj_ez_keyboard_default/common/avr/timer.o
-                0x000000000000317a                timer_read
+                0x000000000000327a       0x18 .build/obj_ez_keyboard_default/common/avr/timer.o
+                0x000000000000327a                timer_read
  .text.timer_read32
-                0x0000000000003192       0x18 .build/obj_ez_keyboard_default/common/avr/timer.o
-                0x0000000000003192                timer_read32
+                0x0000000000003292       0x18 .build/obj_ez_keyboard_default/common/avr/timer.o
+                0x0000000000003292                timer_read32
  .text.timer_elapsed
-                0x00000000000031aa       0x54 .build/obj_ez_keyboard_default/common/avr/timer.o
-                0x00000000000031aa                timer_elapsed
+                0x00000000000032aa       0x54 .build/obj_ez_keyboard_default/common/avr/timer.o
+                0x00000000000032aa                timer_elapsed
  .text.__vector_21
-                0x00000000000031fe       0x4c .build/obj_ez_keyboard_default/common/avr/timer.o
-                0x00000000000031fe                __vector_21
+                0x00000000000032fe       0x4c .build/obj_ez_keyboard_default/common/avr/timer.o
+                0x00000000000032fe                __vector_21
  .text.bootloader_jump
-                0x000000000000324a       0x48 .build/obj_ez_keyboard_default/common/avr/bootloader.o
-                0x000000000000324a                bootloader_jump
- .text.magic    0x0000000000003292       0x32 .build/obj_ez_keyboard_default/common/magic.o
-                0x0000000000003292                magic
+                0x000000000000334a       0x48 .build/obj_ez_keyboard_default/common/avr/bootloader.o
+                0x000000000000334a                bootloader_jump
+ .text.magic    0x0000000000003392       0x32 .build/obj_ez_keyboard_default/common/magic.o
+                0x0000000000003392                magic
  .text.move_unit
-                0x00000000000032c4       0x94 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000033c4       0x94 .build/obj_ez_keyboard_default/common/mousekey.o
  .text.wheel_unit
-                0x0000000000003358       0x72 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x0000000000003458       0x72 .build/obj_ez_keyboard_default/common/mousekey.o
  .text.mousekey_on
-                0x00000000000033ca       0xd0 .build/obj_ez_keyboard_default/common/mousekey.o
-                0x00000000000033ca                mousekey_on
+                0x00000000000034ca       0xd0 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000034ca                mousekey_on
  .text.mousekey_off
-                0x000000000000349a      0x108 .build/obj_ez_keyboard_default/common/mousekey.o
-                0x000000000000349a                mousekey_off
+                0x000000000000359a      0x108 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x000000000000359a                mousekey_off
  .text.mousekey_send
-                0x00000000000035a2      0x11a .build/obj_ez_keyboard_default/common/mousekey.o
-                0x00000000000035a2                mousekey_send
+                0x00000000000036a2      0x11a .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000036a2                mousekey_send
  .text.mousekey_task
-                0x00000000000036bc      0x116 .build/obj_ez_keyboard_default/common/mousekey.o
-                0x00000000000036bc                mousekey_task
+                0x00000000000037bc      0x116 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000037bc                mousekey_task
  .text.mousekey_clear
-                0x00000000000037d2       0x18 .build/obj_ez_keyboard_default/common/mousekey.o
-                0x00000000000037d2                mousekey_clear
+                0x00000000000038d2       0x18 .build/obj_ez_keyboard_default/common/mousekey.o
+                0x00000000000038d2                mousekey_clear
  .text.mousekey_console_help
-                0x00000000000037ea       0x2e .build/obj_ez_keyboard_default/common/command.o
+                0x00000000000038ea       0x2e .build/obj_ez_keyboard_default/common/command.o
  .text.mousekey_param_inc
-                0x0000000000003818      0x148 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000003918      0x148 .build/obj_ez_keyboard_default/common/command.o
  .text.mousekey_param_dec
-                0x0000000000003960       0xfe .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000003a60       0xfe .build/obj_ez_keyboard_default/common/command.o
  .text.switch_default_layer
-                0x0000000000003a5e       0x3c .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000003b5e       0x3c .build/obj_ez_keyboard_default/common/command.o
  .text.command_common
-                0x0000000000003a9a      0x206 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000003b9a      0x206 .build/obj_ez_keyboard_default/common/command.o
  .text.command_extra
-                0x0000000000003ca0        0x4 .build/obj_ez_keyboard_default/common/command.o
-                0x0000000000003ca0                command_extra
+                0x0000000000003da0        0x4 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000003da0                command_extra
  .text.command_console_extra
-                0x0000000000003ca4        0x4 .build/obj_ez_keyboard_default/common/command.o
-                0x0000000000003ca4                command_console_extra
+                0x0000000000003da4        0x4 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000003da4                command_console_extra
  .text.numkey2num
-                0x0000000000003ca8       0x16 .build/obj_ez_keyboard_default/common/command.o
-                0x0000000000003ca8                numkey2num
+                0x0000000000003da8       0x16 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000003da8                numkey2num
  .text.command_proc
-                0x0000000000003cbe      0x290 .build/obj_ez_keyboard_default/common/command.o
-                0x0000000000003cbe                command_proc
+                0x0000000000003dbe      0x290 .build/obj_ez_keyboard_default/common/command.o
+                0x0000000000003dbe                command_proc
  .text.keyboard_leds
-                0x0000000000003f4e        0x6 .build/obj_ez_keyboard_default/lufa.o
+                0x000000000000404e        0x6 .build/obj_ez_keyboard_default/lufa.o
  .text.sendchar
-                0x0000000000003f54       0xc6 .build/obj_ez_keyboard_default/lufa.o
-                0x0000000000003f54                sendchar
+                0x0000000000004054       0xc6 .build/obj_ez_keyboard_default/lufa.o
+                0x0000000000004054                sendchar
  .text.send_consumer
-                0x000000000000401a       0x74 .build/obj_ez_keyboard_default/lufa.o
+                0x000000000000411a       0x74 .build/obj_ez_keyboard_default/lufa.o
  .text.send_system
-                0x000000000000408e       0x6c .build/obj_ez_keyboard_default/lufa.o
+                0x000000000000418e       0x6c .build/obj_ez_keyboard_default/lufa.o
  .text.send_mouse
-                0x00000000000040fa       0x56 .build/obj_ez_keyboard_default/lufa.o
+                0x00000000000041fa       0x56 .build/obj_ez_keyboard_default/lufa.o
  .text.send_keyboard
-                0x0000000000004150       0x66 .build/obj_ez_keyboard_default/lufa.o
+                0x0000000000004250       0x66 .build/obj_ez_keyboard_default/lufa.o
  .text.EVENT_USB_Device_Connect
-                0x00000000000041b6       0x24 .build/obj_ez_keyboard_default/lufa.o
-                0x00000000000041b6                EVENT_USB_Device_Connect
+                0x00000000000042b6       0x24 .build/obj_ez_keyboard_default/lufa.o
+                0x00000000000042b6                EVENT_USB_Device_Connect
  .text.EVENT_USB_Device_Disconnect
-                0x00000000000041da        0xe .build/obj_ez_keyboard_default/lufa.o
-                0x00000000000041da                EVENT_USB_Device_Disconnect
+                0x00000000000042da        0xe .build/obj_ez_keyboard_default/lufa.o
+                0x00000000000042da                EVENT_USB_Device_Disconnect
  .text.EVENT_USB_Device_Reset
-                0x00000000000041e8        0x8 .build/obj_ez_keyboard_default/lufa.o
-                0x00000000000041e8                EVENT_USB_Device_Reset
+                0x00000000000042e8        0x8 .build/obj_ez_keyboard_default/lufa.o
+                0x00000000000042e8                EVENT_USB_Device_Reset
  .text.EVENT_USB_Device_Suspend
-                0x00000000000041f0        0x8 .build/obj_ez_keyboard_default/lufa.o
-                0x00000000000041f0                EVENT_USB_Device_Suspend
+                0x00000000000042f0        0x8 .build/obj_ez_keyboard_default/lufa.o
+                0x00000000000042f0                EVENT_USB_Device_Suspend
  .text.EVENT_USB_Device_WakeUp
-                0x00000000000041f8        0xc .build/obj_ez_keyboard_default/lufa.o
-                0x00000000000041f8                EVENT_USB_Device_WakeUp
+                0x00000000000042f8        0xc .build/obj_ez_keyboard_default/lufa.o
+                0x00000000000042f8                EVENT_USB_Device_WakeUp
  .text.EVENT_USB_Device_StartOfFrame
-                0x0000000000004204       0x84 .build/obj_ez_keyboard_default/lufa.o
-                0x0000000000004204                EVENT_USB_Device_StartOfFrame
+                0x0000000000004304       0x84 .build/obj_ez_keyboard_default/lufa.o
+                0x0000000000004304                EVENT_USB_Device_StartOfFrame
  .text.EVENT_USB_Device_ConfigurationChanged
-                0x0000000000004288       0x28 .build/obj_ez_keyboard_default/lufa.o
-                0x0000000000004288                EVENT_USB_Device_ConfigurationChanged
+                0x0000000000004388       0x28 .build/obj_ez_keyboard_default/lufa.o
+                0x0000000000004388                EVENT_USB_Device_ConfigurationChanged
  .text.EVENT_USB_Device_ControlRequest
-                0x00000000000042b0      0x154 .build/obj_ez_keyboard_default/lufa.o
-                0x00000000000042b0                EVENT_USB_Device_ControlRequest
+                0x00000000000043b0      0x154 .build/obj_ez_keyboard_default/lufa.o
+                0x00000000000043b0                EVENT_USB_Device_ControlRequest
  .text.startup.main
-                0x0000000000004404       0x8e .build/obj_ez_keyboard_default/lufa.o
-                0x0000000000004404                main
+                0x0000000000004504       0x8e .build/obj_ez_keyboard_default/lufa.o
+                0x0000000000004504                main
  .text.CALLBACK_USB_GetDescriptor
-                0x0000000000004492        0x4 .build/obj_ez_keyboard_default/lufa.o
-                0x0000000000004492                CALLBACK_USB_GetDescriptor
+                0x0000000000004592        0x4 .build/obj_ez_keyboard_default/lufa.o
+                0x0000000000004592                CALLBACK_USB_GetDescriptor
  .text.get_usb_descriptor
-                0x0000000000004496       0xb6 .build/obj_ez_keyboard_default/usb_descriptor.o
-                0x0000000000004496                get_usb_descriptor
+                0x0000000000004596       0xb6 .build/obj_ez_keyboard_default/usb_descriptor.o
+                0x0000000000004596                get_usb_descriptor
  .text.set_output_user
-                0x000000000000454c        0x2 .build/obj_ez_keyboard_default/outputselect.o
-                0x000000000000454c                set_output_user
+                0x000000000000464c        0x2 .build/obj_ez_keyboard_default/outputselect.o
+                0x000000000000464c                set_output_user
  .text.set_output
-                0x000000000000454e       0x10 .build/obj_ez_keyboard_default/outputselect.o
-                0x000000000000454e                set_output
+                0x000000000000464e       0x10 .build/obj_ez_keyboard_default/outputselect.o
+                0x000000000000464e                set_output
  .text.auto_detect_output
-                0x000000000000455e       0x10 .build/obj_ez_keyboard_default/outputselect.o
-                0x000000000000455e                auto_detect_output
+                0x000000000000465e       0x10 .build/obj_ez_keyboard_default/outputselect.o
+                0x000000000000465e                auto_detect_output
  .text.where_to_send
-                0x000000000000456e        0xe .build/obj_ez_keyboard_default/outputselect.o
-                0x000000000000456e                where_to_send
+                0x000000000000466e        0xe .build/obj_ez_keyboard_default/outputselect.o
+                0x000000000000466e                where_to_send
  .text.USB_Device_SendRemoteWakeup
-                0x000000000000457c       0x2c .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
-                0x000000000000457c                USB_Device_SendRemoteWakeup
+                0x000000000000467c       0x2c .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+                0x000000000000467c                USB_Device_SendRemoteWakeup
  .text.Endpoint_Write_Stream_LE
-                0x00000000000045a8       0x9e .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
-                0x00000000000045a8                Endpoint_Write_Stream_LE
+                0x00000000000046a8       0x9e .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x00000000000046a8                Endpoint_Write_Stream_LE
  .text.Endpoint_Write_Control_Stream_LE
-                0x0000000000004646       0xbe .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
-                0x0000000000004646                Endpoint_Write_Control_Stream_LE
+                0x0000000000004746       0xbe .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x0000000000004746                Endpoint_Write_Control_Stream_LE
  .text.Endpoint_Write_Control_PStream_LE
-                0x0000000000004704       0xc0 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
-                0x0000000000004704                Endpoint_Write_Control_PStream_LE
+                0x0000000000004804       0xc0 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x0000000000004804                Endpoint_Write_Control_PStream_LE
  .text.Endpoint_ConfigureEndpoint_Prv
-                0x00000000000047c4       0x68 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
-                0x00000000000047c4                Endpoint_ConfigureEndpoint_Prv
+                0x00000000000048c4       0x68 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x00000000000048c4                Endpoint_ConfigureEndpoint_Prv
  .text.Endpoint_ClearStatusStage
-                0x000000000000482c       0x3e .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
-                0x000000000000482c                Endpoint_ClearStatusStage
+                0x000000000000492c       0x3e .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x000000000000492c                Endpoint_ClearStatusStage
  .text.Endpoint_WaitUntilReady
-                0x000000000000486a       0x5e .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
-                0x000000000000486a                Endpoint_WaitUntilReady
+                0x000000000000496a       0x5e .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x000000000000496a                Endpoint_WaitUntilReady
  .text.USB_Disable
-                0x00000000000048c8       0x34 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
-                0x00000000000048c8                USB_Disable
+                0x00000000000049c8       0x34 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x00000000000049c8                USB_Disable
  .text.USB_ResetInterface
-                0x00000000000048fc       0x86 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
-                0x00000000000048fc                USB_ResetInterface
+                0x00000000000049fc       0x86 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x00000000000049fc                USB_ResetInterface
  .text.USB_Init
-                0x0000000000004982       0x22 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
-                0x0000000000004982                USB_Init
+                0x0000000000004a82       0x22 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x0000000000004a82                USB_Init
  .text.USB_INT_DisableAllInterrupts
-                0x00000000000049a4       0x10 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
-                0x00000000000049a4                USB_INT_DisableAllInterrupts
+                0x0000000000004aa4       0x10 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x0000000000004aa4                USB_INT_DisableAllInterrupts
  .text.USB_INT_ClearAllInterrupts
-                0x00000000000049b4        0xa .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
-                0x00000000000049b4                USB_INT_ClearAllInterrupts
+                0x0000000000004ab4        0xa .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x0000000000004ab4                USB_INT_ClearAllInterrupts
  .text.__vector_10
-                0x00000000000049be      0x1a6 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
-                0x00000000000049be                __vector_10
+                0x0000000000004abe      0x1a6 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x0000000000004abe                __vector_10
  .text.__vector_11
-                0x0000000000004b64       0x78 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
-                0x0000000000004b64                __vector_11
+                0x0000000000004c64       0x78 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x0000000000004c64                __vector_11
  .text.USB_Device_ProcessControlRequest
-                0x0000000000004bdc      0x2b6 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
-                0x0000000000004bdc                USB_Device_ProcessControlRequest
+                0x0000000000004cdc      0x2b6 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                0x0000000000004cdc                USB_Device_ProcessControlRequest
  .text.USB_USBTask
-                0x0000000000004e92       0x38 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
-                0x0000000000004e92                USB_USBTask
+                0x0000000000004f92       0x38 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
+                0x0000000000004f92                USB_USBTask
  .text.libgcc.div
-                0x0000000000004eca       0x18 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodqi4.o)
-                0x0000000000004eca                __udivmodqi4
+                0x0000000000004fca       0x18 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodqi4.o)
+                0x0000000000004fca                __udivmodqi4
  .text.libgcc.div
-                0x0000000000004ee2       0x28 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
-                0x0000000000004ee2                __divmodhi4
-                0x0000000000004ee2                _div
- .text.libgcc   0x0000000000004f0a        0xc /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_tablejump2.o)
-                0x0000000000004f0a                __tablejump2__
+                0x0000000000004fe2       0x28 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
+                0x0000000000004fe2                __divmodhi4
+                0x0000000000004fe2                _div
+ .text.libgcc   0x000000000000500a        0xc /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_tablejump2.o)
+                0x000000000000500a                __tablejump2__
  .text.libgcc.div
-                0x0000000000004f16       0x28 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
-                0x0000000000004f16                __udivmodhi4
+                0x0000000000005016       0x28 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000005016                __udivmodhi4
  .text.avr-libc
-                0x0000000000004f3e       0x10 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega32u4.a(eerd_byte.o)
-                0x0000000000004f3e                eeprom_read_byte
+                0x000000000000503e       0x10 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega32u4.a(eerd_byte.o)
+                0x000000000000503e                eeprom_read_byte
  .text.avr-libc
-                0x0000000000004f4e        0xc /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega32u4.a(eerd_word.o)
-                0x0000000000004f4e                eeprom_read_word
+                0x000000000000504e        0xc /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega32u4.a(eerd_word.o)
+                0x000000000000504e                eeprom_read_word
  .text.avr-libc
-                0x0000000000004f5a       0x24 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega32u4.a(eeupd_byte.o)
-                0x0000000000004f5a                eeprom_update_byte
-                0x0000000000004f5c                eeprom_update_r18
+                0x000000000000505a       0x24 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega32u4.a(eeupd_byte.o)
+                0x000000000000505a                eeprom_update_byte
+                0x000000000000505c                eeprom_update_r18
  .text.avr-libc
-                0x0000000000004f7e        0xc /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega32u4.a(eeupd_word.o)
-                0x0000000000004f7e                eeprom_update_word
+                0x000000000000507e        0xc /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega32u4.a(eeupd_word.o)
+                0x000000000000507e                eeprom_update_word
  .text.avr-libc
-                0x0000000000004f8a       0x20 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega32u4.a(eerd_block.o)
-                0x0000000000004f8a                eeprom_read_block
-                0x0000000000004f8e                eeprom_read_blraw
-                0x0000000000004faa                . = ALIGN (0x2)
+                0x000000000000508a       0x20 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/libatmega32u4.a(eerd_block.o)
+                0x000000000000508a                eeprom_read_block
+                0x000000000000508e                eeprom_read_blraw
+                0x00000000000050aa                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000004faa        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
-                0x0000000000004faa                exit
-                0x0000000000004faa                _exit
+ .fini9         0x00000000000050aa        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                0x00000000000050aa                exit
+                0x00000000000050aa                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -1658,17 +1658,17 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000004faa        0x4 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .fini0         0x00000000000050aa        0x4 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
  *(.fini0)
  *(.hightext)
  *(.hightext*)
  *(.progmemx.*)
-                0x0000000000004fae                . = ALIGN (0x2)
+                0x00000000000050ae                . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
-                0x0000000000004fae                _etext = .
+                0x00000000000050ae                _etext = .
 
-.data           0x0000000000800100       0x44 load address 0x0000000000004fae
+.data           0x0000000000800100       0x44 load address 0x00000000000050ae
                 0x0000000000800100                PROVIDE (__data_start = .)
  *(.data)
  *(.data*)
@@ -1835,8 +1835,8 @@ END GROUP
                 0x00000000008001f7                USB_DeviceState
                 0x00000000008001f8                USB_ControlRequest
                 0x0000000000800200                PROVIDE (__bss_end = .)
-                0x0000000000004fae                __data_load_start = LOADADDR (.data)
-                0x0000000000004ff2                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00000000000050ae                __data_load_start = LOADADDR (.data)
+                0x00000000000050f2                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x0000000000800200        0x4
                 [!provide]                        PROVIDE (__noinit_start = .)
@@ -2018,122 +2018,122 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000    0x16276
+.debug_info     0x0000000000000000    0x16c6f
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0x9f4 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
  .debug_info    0x00000000000009f4      0x5cc .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
- .debug_info    0x0000000000000fc0      0xa1f .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
- .debug_info    0x00000000000019df     0x235f .build/obj_ez_keyboard_default/quantum/quantum.o
- .debug_info    0x0000000000003d3e     0x1a17 .build/obj_ez_keyboard_default/quantum/keymap_common.o
- .debug_info    0x0000000000005755      0x5fb .build/obj_ez_keyboard_default/quantum/keycode_config.o
- .debug_info    0x0000000000005d50      0xdd1 .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
- .debug_info    0x0000000000006b21      0x88a .build/obj_ez_keyboard_default/quantum/matrix.o
- .debug_info    0x00000000000073ab      0x587 .build/obj_ez_keyboard_default/common/host.o
- .debug_info    0x0000000000007932      0x6ee .build/obj_ez_keyboard_default/common/keyboard.o
- .debug_info    0x0000000000008020     0x1b57 .build/obj_ez_keyboard_default/common/action.o
- .debug_info    0x0000000000009b77      0xeee .build/obj_ez_keyboard_default/common/action_tapping.o
- .debug_info    0x000000000000aa65      0x8ac .build/obj_ez_keyboard_default/common/action_macro.o
- .debug_info    0x000000000000b311      0xa20 .build/obj_ez_keyboard_default/common/action_layer.o
- .debug_info    0x000000000000bd31      0x8dc .build/obj_ez_keyboard_default/common/action_util.o
- .debug_info    0x000000000000c60d       0xda .build/obj_ez_keyboard_default/common/print.o
- .debug_info    0x000000000000c6e7      0x123 .build/obj_ez_keyboard_default/common/debug.o
- .debug_info    0x000000000000c80a      0x2a2 .build/obj_ez_keyboard_default/common/util.o
- .debug_info    0x000000000000caac      0x352 .build/obj_ez_keyboard_default/common/eeconfig.o
- .debug_info    0x000000000000cdfe      0x4a2 .build/obj_ez_keyboard_default/common/report.o
- .debug_info    0x000000000000d2a0      0x610 .build/obj_ez_keyboard_default/common/avr/suspend.o
- .debug_info    0x000000000000d8b0      0x3aa .build/obj_ez_keyboard_default/common/avr/timer.o
- .debug_info    0x000000000000dc5a      0x382 .build/obj_ez_keyboard_default/common/avr/bootloader.o
- .debug_info    0x000000000000dfdc      0x335 .build/obj_ez_keyboard_default/common/magic.o
- .debug_info    0x000000000000e311      0x82e .build/obj_ez_keyboard_default/common/mousekey.o
- .debug_info    0x000000000000eb3f     0x1469 .build/obj_ez_keyboard_default/common/command.o
- .debug_info    0x000000000000ffa8     0x19dd .build/obj_ez_keyboard_default/lufa.o
- .debug_info    0x0000000000011985      0x993 .build/obj_ez_keyboard_default/usb_descriptor.o
- .debug_info    0x0000000000012318      0x4db .build/obj_ez_keyboard_default/outputselect.o
- .debug_info    0x00000000000127f3      0x18c .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
- .debug_info    0x000000000001297f     0x17d8 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
- .debug_info    0x0000000000014157      0x64a .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
- .debug_info    0x00000000000147a1      0x54a .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
- .debug_info    0x0000000000014ceb      0x875 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
- .debug_info    0x0000000000015560      0xa6f .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
- .debug_info    0x0000000000015fcf      0x2a7 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_info    0x0000000000000fc0     0x1418 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
+ .debug_info    0x00000000000023d8     0x235f .build/obj_ez_keyboard_default/quantum/quantum.o
+ .debug_info    0x0000000000004737     0x1a17 .build/obj_ez_keyboard_default/quantum/keymap_common.o
+ .debug_info    0x000000000000614e      0x5fb .build/obj_ez_keyboard_default/quantum/keycode_config.o
+ .debug_info    0x0000000000006749      0xdd1 .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
+ .debug_info    0x000000000000751a      0x88a .build/obj_ez_keyboard_default/quantum/matrix.o
+ .debug_info    0x0000000000007da4      0x587 .build/obj_ez_keyboard_default/common/host.o
+ .debug_info    0x000000000000832b      0x6ee .build/obj_ez_keyboard_default/common/keyboard.o
+ .debug_info    0x0000000000008a19     0x1b57 .build/obj_ez_keyboard_default/common/action.o
+ .debug_info    0x000000000000a570      0xeee .build/obj_ez_keyboard_default/common/action_tapping.o
+ .debug_info    0x000000000000b45e      0x8ac .build/obj_ez_keyboard_default/common/action_macro.o
+ .debug_info    0x000000000000bd0a      0xa20 .build/obj_ez_keyboard_default/common/action_layer.o
+ .debug_info    0x000000000000c72a      0x8dc .build/obj_ez_keyboard_default/common/action_util.o
+ .debug_info    0x000000000000d006       0xda .build/obj_ez_keyboard_default/common/print.o
+ .debug_info    0x000000000000d0e0      0x123 .build/obj_ez_keyboard_default/common/debug.o
+ .debug_info    0x000000000000d203      0x2a2 .build/obj_ez_keyboard_default/common/util.o
+ .debug_info    0x000000000000d4a5      0x352 .build/obj_ez_keyboard_default/common/eeconfig.o
+ .debug_info    0x000000000000d7f7      0x4a2 .build/obj_ez_keyboard_default/common/report.o
+ .debug_info    0x000000000000dc99      0x610 .build/obj_ez_keyboard_default/common/avr/suspend.o
+ .debug_info    0x000000000000e2a9      0x3aa .build/obj_ez_keyboard_default/common/avr/timer.o
+ .debug_info    0x000000000000e653      0x382 .build/obj_ez_keyboard_default/common/avr/bootloader.o
+ .debug_info    0x000000000000e9d5      0x335 .build/obj_ez_keyboard_default/common/magic.o
+ .debug_info    0x000000000000ed0a      0x82e .build/obj_ez_keyboard_default/common/mousekey.o
+ .debug_info    0x000000000000f538     0x1469 .build/obj_ez_keyboard_default/common/command.o
+ .debug_info    0x00000000000109a1     0x19dd .build/obj_ez_keyboard_default/lufa.o
+ .debug_info    0x000000000001237e      0x993 .build/obj_ez_keyboard_default/usb_descriptor.o
+ .debug_info    0x0000000000012d11      0x4db .build/obj_ez_keyboard_default/outputselect.o
+ .debug_info    0x00000000000131ec      0x18c .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_info    0x0000000000013378     0x17d8 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_info    0x0000000000014b50      0x64a .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_info    0x000000000001519a      0x54a .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_info    0x00000000000156e4      0x875 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_info    0x0000000000015f59      0xa6f .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_info    0x00000000000169c8      0x2a7 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
 
-.debug_abbrev   0x0000000000000000     0x53b5
+.debug_abbrev   0x0000000000000000     0x53d1
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x96a /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
  .debug_abbrev  0x000000000000096a      0x179 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
- .debug_abbrev  0x0000000000000ae3      0x1ec .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
- .debug_abbrev  0x0000000000000ccf      0x49b .build/obj_ez_keyboard_default/quantum/quantum.o
- .debug_abbrev  0x000000000000116a      0x2a5 .build/obj_ez_keyboard_default/quantum/keymap_common.o
- .debug_abbrev  0x000000000000140f       0xfd .build/obj_ez_keyboard_default/quantum/keycode_config.o
- .debug_abbrev  0x000000000000150c      0x19f .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
- .debug_abbrev  0x00000000000016ab      0x3e5 .build/obj_ez_keyboard_default/quantum/matrix.o
- .debug_abbrev  0x0000000000001a90      0x203 .build/obj_ez_keyboard_default/common/host.o
- .debug_abbrev  0x0000000000001c93      0x23d .build/obj_ez_keyboard_default/common/keyboard.o
- .debug_abbrev  0x0000000000001ed0      0x396 .build/obj_ez_keyboard_default/common/action.o
- .debug_abbrev  0x0000000000002266      0x303 .build/obj_ez_keyboard_default/common/action_tapping.o
- .debug_abbrev  0x0000000000002569      0x1d1 .build/obj_ez_keyboard_default/common/action_macro.o
- .debug_abbrev  0x000000000000273a      0x2a1 .build/obj_ez_keyboard_default/common/action_layer.o
- .debug_abbrev  0x00000000000029db      0x266 .build/obj_ez_keyboard_default/common/action_util.o
- .debug_abbrev  0x0000000000002c41       0x97 .build/obj_ez_keyboard_default/common/print.o
- .debug_abbrev  0x0000000000002cd8       0xad .build/obj_ez_keyboard_default/common/debug.o
- .debug_abbrev  0x0000000000002d85       0xcb .build/obj_ez_keyboard_default/common/util.o
- .debug_abbrev  0x0000000000002e50       0xc2 .build/obj_ez_keyboard_default/common/eeconfig.o
- .debug_abbrev  0x0000000000002f12      0x185 .build/obj_ez_keyboard_default/common/report.o
- .debug_abbrev  0x0000000000003097      0x2b2 .build/obj_ez_keyboard_default/common/avr/suspend.o
- .debug_abbrev  0x0000000000003349      0x182 .build/obj_ez_keyboard_default/common/avr/timer.o
- .debug_abbrev  0x00000000000034cb      0x200 .build/obj_ez_keyboard_default/common/avr/bootloader.o
- .debug_abbrev  0x00000000000036cb      0x125 .build/obj_ez_keyboard_default/common/magic.o
- .debug_abbrev  0x00000000000037f0      0x25a .build/obj_ez_keyboard_default/common/mousekey.o
- .debug_abbrev  0x0000000000003a4a      0x362 .build/obj_ez_keyboard_default/common/command.o
- .debug_abbrev  0x0000000000003dac      0x4ad .build/obj_ez_keyboard_default/lufa.o
- .debug_abbrev  0x0000000000004259      0x1d9 .build/obj_ez_keyboard_default/usb_descriptor.o
- .debug_abbrev  0x0000000000004432      0x1fe .build/obj_ez_keyboard_default/outputselect.o
- .debug_abbrev  0x0000000000004630       0xb6 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
- .debug_abbrev  0x00000000000046e6      0x20a .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
- .debug_abbrev  0x00000000000048f0      0x251 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
- .debug_abbrev  0x0000000000004b41      0x1af .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
- .debug_abbrev  0x0000000000004cf0      0x231 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
- .debug_abbrev  0x0000000000004f21      0x2fc .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
- .debug_abbrev  0x000000000000521d      0x198 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_abbrev  0x0000000000000ae3      0x208 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
+ .debug_abbrev  0x0000000000000ceb      0x49b .build/obj_ez_keyboard_default/quantum/quantum.o
+ .debug_abbrev  0x0000000000001186      0x2a5 .build/obj_ez_keyboard_default/quantum/keymap_common.o
+ .debug_abbrev  0x000000000000142b       0xfd .build/obj_ez_keyboard_default/quantum/keycode_config.o
+ .debug_abbrev  0x0000000000001528      0x19f .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
+ .debug_abbrev  0x00000000000016c7      0x3e5 .build/obj_ez_keyboard_default/quantum/matrix.o
+ .debug_abbrev  0x0000000000001aac      0x203 .build/obj_ez_keyboard_default/common/host.o
+ .debug_abbrev  0x0000000000001caf      0x23d .build/obj_ez_keyboard_default/common/keyboard.o
+ .debug_abbrev  0x0000000000001eec      0x396 .build/obj_ez_keyboard_default/common/action.o
+ .debug_abbrev  0x0000000000002282      0x303 .build/obj_ez_keyboard_default/common/action_tapping.o
+ .debug_abbrev  0x0000000000002585      0x1d1 .build/obj_ez_keyboard_default/common/action_macro.o
+ .debug_abbrev  0x0000000000002756      0x2a1 .build/obj_ez_keyboard_default/common/action_layer.o
+ .debug_abbrev  0x00000000000029f7      0x266 .build/obj_ez_keyboard_default/common/action_util.o
+ .debug_abbrev  0x0000000000002c5d       0x97 .build/obj_ez_keyboard_default/common/print.o
+ .debug_abbrev  0x0000000000002cf4       0xad .build/obj_ez_keyboard_default/common/debug.o
+ .debug_abbrev  0x0000000000002da1       0xcb .build/obj_ez_keyboard_default/common/util.o
+ .debug_abbrev  0x0000000000002e6c       0xc2 .build/obj_ez_keyboard_default/common/eeconfig.o
+ .debug_abbrev  0x0000000000002f2e      0x185 .build/obj_ez_keyboard_default/common/report.o
+ .debug_abbrev  0x00000000000030b3      0x2b2 .build/obj_ez_keyboard_default/common/avr/suspend.o
+ .debug_abbrev  0x0000000000003365      0x182 .build/obj_ez_keyboard_default/common/avr/timer.o
+ .debug_abbrev  0x00000000000034e7      0x200 .build/obj_ez_keyboard_default/common/avr/bootloader.o
+ .debug_abbrev  0x00000000000036e7      0x125 .build/obj_ez_keyboard_default/common/magic.o
+ .debug_abbrev  0x000000000000380c      0x25a .build/obj_ez_keyboard_default/common/mousekey.o
+ .debug_abbrev  0x0000000000003a66      0x362 .build/obj_ez_keyboard_default/common/command.o
+ .debug_abbrev  0x0000000000003dc8      0x4ad .build/obj_ez_keyboard_default/lufa.o
+ .debug_abbrev  0x0000000000004275      0x1d9 .build/obj_ez_keyboard_default/usb_descriptor.o
+ .debug_abbrev  0x000000000000444e      0x1fe .build/obj_ez_keyboard_default/outputselect.o
+ .debug_abbrev  0x000000000000464c       0xb6 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_abbrev  0x0000000000004702      0x20a .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_abbrev  0x000000000000490c      0x251 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_abbrev  0x0000000000004b5d      0x1af .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_abbrev  0x0000000000004d0c      0x231 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_abbrev  0x0000000000004f3d      0x2fc .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_abbrev  0x0000000000005239      0x198 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
 
-.debug_line     0x0000000000000000     0x8b6b
+.debug_line     0x0000000000000000     0x8b84
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000       0x1d /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
  .debug_line    0x000000000000001d      0x1c5 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
- .debug_line    0x00000000000001e2      0x207 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
- .debug_line    0x00000000000003e9      0xa99 .build/obj_ez_keyboard_default/quantum/quantum.o
- .debug_line    0x0000000000000e82      0x43d .build/obj_ez_keyboard_default/quantum/keymap_common.o
- .debug_line    0x00000000000012bf      0x1bd .build/obj_ez_keyboard_default/quantum/keycode_config.o
- .debug_line    0x000000000000147c      0x230 .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
- .debug_line    0x00000000000016ac      0x3b3 .build/obj_ez_keyboard_default/quantum/matrix.o
- .debug_line    0x0000000000001a5f      0x22f .build/obj_ez_keyboard_default/common/host.o
- .debug_line    0x0000000000001c8e      0x2b5 .build/obj_ez_keyboard_default/common/keyboard.o
- .debug_line    0x0000000000001f43      0x9b8 .build/obj_ez_keyboard_default/common/action.o
- .debug_line    0x00000000000028fb      0x58d .build/obj_ez_keyboard_default/common/action_tapping.o
- .debug_line    0x0000000000002e88      0x1bd .build/obj_ez_keyboard_default/common/action_macro.o
- .debug_line    0x0000000000003045      0x397 .build/obj_ez_keyboard_default/common/action_layer.o
- .debug_line    0x00000000000033dc      0x49d .build/obj_ez_keyboard_default/common/action_util.o
- .debug_line    0x0000000000003879       0x96 .build/obj_ez_keyboard_default/common/print.o
- .debug_line    0x000000000000390f       0x85 .build/obj_ez_keyboard_default/common/debug.o
- .debug_line    0x0000000000003994      0x288 .build/obj_ez_keyboard_default/common/util.o
- .debug_line    0x0000000000003c1c      0x17a .build/obj_ez_keyboard_default/common/eeconfig.o
- .debug_line    0x0000000000003d96      0x1d3 .build/obj_ez_keyboard_default/common/report.o
- .debug_line    0x0000000000003f69      0x2ec .build/obj_ez_keyboard_default/common/avr/suspend.o
- .debug_line    0x0000000000004255      0x25c .build/obj_ez_keyboard_default/common/avr/timer.o
- .debug_line    0x00000000000044b1      0x1c5 .build/obj_ez_keyboard_default/common/avr/bootloader.o
- .debug_line    0x0000000000004676      0x10d .build/obj_ez_keyboard_default/common/magic.o
- .debug_line    0x0000000000004783      0x666 .build/obj_ez_keyboard_default/common/mousekey.o
- .debug_line    0x0000000000004de9      0x695 .build/obj_ez_keyboard_default/common/command.o
- .debug_line    0x000000000000547e      0xb06 .build/obj_ez_keyboard_default/lufa.o
- .debug_line    0x0000000000005f84      0x229 .build/obj_ez_keyboard_default/usb_descriptor.o
- .debug_line    0x00000000000061ad      0x1eb .build/obj_ez_keyboard_default/outputselect.o
- .debug_line    0x0000000000006398      0x178 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
- .debug_line    0x0000000000006510     0x1389 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
- .debug_line    0x0000000000007899      0x4ab .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
- .debug_line    0x0000000000007d44      0x2f3 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
- .debug_line    0x0000000000008037      0x527 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
- .debug_line    0x000000000000855e      0x49b .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
- .debug_line    0x00000000000089f9      0x172 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_line    0x00000000000001e2      0x220 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
+ .debug_line    0x0000000000000402      0xa99 .build/obj_ez_keyboard_default/quantum/quantum.o
+ .debug_line    0x0000000000000e9b      0x43d .build/obj_ez_keyboard_default/quantum/keymap_common.o
+ .debug_line    0x00000000000012d8      0x1bd .build/obj_ez_keyboard_default/quantum/keycode_config.o
+ .debug_line    0x0000000000001495      0x230 .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
+ .debug_line    0x00000000000016c5      0x3b3 .build/obj_ez_keyboard_default/quantum/matrix.o
+ .debug_line    0x0000000000001a78      0x22f .build/obj_ez_keyboard_default/common/host.o
+ .debug_line    0x0000000000001ca7      0x2b5 .build/obj_ez_keyboard_default/common/keyboard.o
+ .debug_line    0x0000000000001f5c      0x9b8 .build/obj_ez_keyboard_default/common/action.o
+ .debug_line    0x0000000000002914      0x58d .build/obj_ez_keyboard_default/common/action_tapping.o
+ .debug_line    0x0000000000002ea1      0x1bd .build/obj_ez_keyboard_default/common/action_macro.o
+ .debug_line    0x000000000000305e      0x397 .build/obj_ez_keyboard_default/common/action_layer.o
+ .debug_line    0x00000000000033f5      0x49d .build/obj_ez_keyboard_default/common/action_util.o
+ .debug_line    0x0000000000003892       0x96 .build/obj_ez_keyboard_default/common/print.o
+ .debug_line    0x0000000000003928       0x85 .build/obj_ez_keyboard_default/common/debug.o
+ .debug_line    0x00000000000039ad      0x288 .build/obj_ez_keyboard_default/common/util.o
+ .debug_line    0x0000000000003c35      0x17a .build/obj_ez_keyboard_default/common/eeconfig.o
+ .debug_line    0x0000000000003daf      0x1d3 .build/obj_ez_keyboard_default/common/report.o
+ .debug_line    0x0000000000003f82      0x2ec .build/obj_ez_keyboard_default/common/avr/suspend.o
+ .debug_line    0x000000000000426e      0x25c .build/obj_ez_keyboard_default/common/avr/timer.o
+ .debug_line    0x00000000000044ca      0x1c5 .build/obj_ez_keyboard_default/common/avr/bootloader.o
+ .debug_line    0x000000000000468f      0x10d .build/obj_ez_keyboard_default/common/magic.o
+ .debug_line    0x000000000000479c      0x666 .build/obj_ez_keyboard_default/common/mousekey.o
+ .debug_line    0x0000000000004e02      0x695 .build/obj_ez_keyboard_default/common/command.o
+ .debug_line    0x0000000000005497      0xb06 .build/obj_ez_keyboard_default/lufa.o
+ .debug_line    0x0000000000005f9d      0x229 .build/obj_ez_keyboard_default/usb_descriptor.o
+ .debug_line    0x00000000000061c6      0x1eb .build/obj_ez_keyboard_default/outputselect.o
+ .debug_line    0x00000000000063b1      0x178 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_line    0x0000000000006529     0x1389 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_line    0x00000000000078b2      0x4ab .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_line    0x0000000000007d5d      0x2f3 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_line    0x0000000000008050      0x527 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_line    0x0000000000008577      0x49b .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_line    0x0000000000008a12      0x172 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
 
 .debug_frame    0x0000000000000000     0x1ff8
  *(.debug_frame)
@@ -2172,78 +2172,78 @@ END GROUP
  .debug_frame   0x0000000000001f90       0x3c .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
  .debug_frame   0x0000000000001fcc       0x2c .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
 
-.debug_str      0x0000000000000000     0x5213
+.debug_str      0x0000000000000000     0x523f
  *(.debug_str)
  .debug_str     0x0000000000000000      0x371 /usr/lib/gcc/avr/7.3.0/../../../../avr/lib/avr5/crtatmega32u4.o
- .debug_str     0x0000000000000371      0x3e8 .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
-                                        0x490 (size before relaxing)
- .debug_str     0x0000000000000759      0x61e .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
-                                        0xa5d (size before relaxing)
- .debug_str     0x0000000000000d77     0x107e .build/obj_ez_keyboard_default/quantum/quantum.o
+ .debug_str     0x0000000000000371      0x3ea .build/obj_ez_keyboard_default/keyboards/ez_keyboard/ez_keyboard.o
+                                        0x492 (size before relaxing)
+ .debug_str     0x000000000000075b     0x152f .build/obj_ez_keyboard_default/keyboards/ez_keyboard/keymaps/default/keymap.o
+                                       0x1980 (size before relaxing)
+ .debug_str     0x0000000000001c8a      0x4db .build/obj_ez_keyboard_default/quantum/quantum.o
                                        0x1b33 (size before relaxing)
- .debug_str     0x0000000000001df5      0x671 .build/obj_ez_keyboard_default/quantum/keymap_common.o
+ .debug_str     0x0000000000002165      0x32d .build/obj_ez_keyboard_default/quantum/keymap_common.o
                                        0x1c9b (size before relaxing)
- .debug_str     0x0000000000002466       0x6a .build/obj_ez_keyboard_default/quantum/keycode_config.o
+ .debug_str     0x0000000000002492       0x6a .build/obj_ez_keyboard_default/quantum/keycode_config.o
                                         0x86c (size before relaxing)
- .debug_str     0x00000000000024d0       0x7a .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
+ .debug_str     0x00000000000024fc       0x7a .build/obj_ez_keyboard_default/quantum/process_keycode/process_leader.o
                                        0x1065 (size before relaxing)
- .debug_str     0x000000000000254a      0x16a .build/obj_ez_keyboard_default/quantum/matrix.o
+ .debug_str     0x0000000000002576      0x16a .build/obj_ez_keyboard_default/quantum/matrix.o
                                         0x42a (size before relaxing)
- .debug_str     0x00000000000026b4      0x11f .build/obj_ez_keyboard_default/common/host.o
+ .debug_str     0x00000000000026e0      0x11f .build/obj_ez_keyboard_default/common/host.o
                                         0x38f (size before relaxing)
- .debug_str     0x00000000000027d3      0x164 .build/obj_ez_keyboard_default/common/keyboard.o
+ .debug_str     0x00000000000027ff      0x164 .build/obj_ez_keyboard_default/common/keyboard.o
                                         0x4ef (size before relaxing)
- .debug_str     0x0000000000002937      0x37b .build/obj_ez_keyboard_default/common/action.o
+ .debug_str     0x0000000000002963      0x37b .build/obj_ez_keyboard_default/common/action.o
                                        0x1429 (size before relaxing)
- .debug_str     0x0000000000002cb2       0xe8 .build/obj_ez_keyboard_default/common/action_tapping.o
+ .debug_str     0x0000000000002cde       0xe8 .build/obj_ez_keyboard_default/common/action_tapping.o
                                         0xb9f (size before relaxing)
- .debug_str     0x0000000000002d9a       0x76 .build/obj_ez_keyboard_default/common/action_macro.o
+ .debug_str     0x0000000000002dc6       0x76 .build/obj_ez_keyboard_default/common/action_macro.o
                                         0x8ed (size before relaxing)
- .debug_str     0x0000000000002e10       0x9f .build/obj_ez_keyboard_default/common/action_layer.o
+ .debug_str     0x0000000000002e3c       0x9f .build/obj_ez_keyboard_default/common/action_layer.o
                                         0x505 (size before relaxing)
- .debug_str     0x0000000000002eaf      0x187 .build/obj_ez_keyboard_default/common/action_util.o
+ .debug_str     0x0000000000002edb      0x187 .build/obj_ez_keyboard_default/common/action_util.o
                                         0x672 (size before relaxing)
- .debug_str     0x0000000000003036       0x3b .build/obj_ez_keyboard_default/common/print.o
+ .debug_str     0x0000000000003062       0x3b .build/obj_ez_keyboard_default/common/print.o
                                         0x1c7 (size before relaxing)
- .debug_str     0x0000000000003071       0x1a .build/obj_ez_keyboard_default/common/debug.o
+ .debug_str     0x000000000000309d       0x1a .build/obj_ez_keyboard_default/common/debug.o
                                         0x1e7 (size before relaxing)
- .debug_str     0x000000000000308b       0x51 .build/obj_ez_keyboard_default/common/util.o
+ .debug_str     0x00000000000030b7       0x51 .build/obj_ez_keyboard_default/common/util.o
                                         0x1f3 (size before relaxing)
- .debug_str     0x00000000000030dc       0xcc .build/obj_ez_keyboard_default/common/eeconfig.o
+ .debug_str     0x0000000000003108       0xcc .build/obj_ez_keyboard_default/common/eeconfig.o
                                         0x2c2 (size before relaxing)
- .debug_str     0x00000000000031a8       0x49 .build/obj_ez_keyboard_default/common/report.o
+ .debug_str     0x00000000000031d4       0x49 .build/obj_ez_keyboard_default/common/report.o
                                         0x359 (size before relaxing)
- .debug_str     0x00000000000031f1      0x25b .build/obj_ez_keyboard_default/common/avr/suspend.o
+ .debug_str     0x000000000000321d      0x25b .build/obj_ez_keyboard_default/common/avr/suspend.o
                                         0x52a (size before relaxing)
- .debug_str     0x000000000000344c       0x8b .build/obj_ez_keyboard_default/common/avr/timer.o
+ .debug_str     0x0000000000003478       0x8b .build/obj_ez_keyboard_default/common/avr/timer.o
                                         0x248 (size before relaxing)
- .debug_str     0x00000000000034d7       0x5d .build/obj_ez_keyboard_default/common/avr/bootloader.o
+ .debug_str     0x0000000000003503       0x5d .build/obj_ez_keyboard_default/common/avr/bootloader.o
                                         0x378 (size before relaxing)
- .debug_str     0x0000000000003534       0x1a .build/obj_ez_keyboard_default/common/magic.o
+ .debug_str     0x0000000000003560       0x1a .build/obj_ez_keyboard_default/common/magic.o
                                         0x373 (size before relaxing)
- .debug_str     0x000000000000354e       0x88 .build/obj_ez_keyboard_default/common/mousekey.o
+ .debug_str     0x000000000000357a       0x88 .build/obj_ez_keyboard_default/common/mousekey.o
                                         0x6af (size before relaxing)
- .debug_str     0x00000000000035d6      0x134 .build/obj_ez_keyboard_default/common/command.o
-                                        0xb7f (size before relaxing)
- .debug_str     0x000000000000370a      0x54b .build/obj_ez_keyboard_default/lufa.o
+ .debug_str     0x0000000000003602      0x134 .build/obj_ez_keyboard_default/common/command.o
+                                        0xb81 (size before relaxing)
+ .debug_str     0x0000000000003736      0x54b .build/obj_ez_keyboard_default/lufa.o
                                         0xcb1 (size before relaxing)
- .debug_str     0x0000000000003c55      0x771 .build/obj_ez_keyboard_default/usb_descriptor.o
+ .debug_str     0x0000000000003c81      0x771 .build/obj_ez_keyboard_default/usb_descriptor.o
                                         0xa94 (size before relaxing)
- .debug_str     0x00000000000043c6       0x5a .build/obj_ez_keyboard_default/outputselect.o
+ .debug_str     0x00000000000043f2       0x5a .build/obj_ez_keyboard_default/outputselect.o
                                         0x4c7 (size before relaxing)
- .debug_str     0x0000000000004420       0x5e .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_str     0x000000000000444c       0x5e .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
                                         0x2d9 (size before relaxing)
- .debug_str     0x000000000000447e      0x4bc .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_str     0x00000000000044aa      0x4bc .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
                                         0x8cd (size before relaxing)
- .debug_str     0x000000000000493a      0x20d .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_str     0x0000000000004966      0x20d .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
                                         0x68d (size before relaxing)
- .debug_str     0x0000000000004b47      0x181 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_str     0x0000000000004b73      0x181 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
                                         0x5b1 (size before relaxing)
- .debug_str     0x0000000000004cc8      0x10c .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_str     0x0000000000004cf4      0x10c .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
                                         0x681 (size before relaxing)
- .debug_str     0x0000000000004dd4      0x3fa .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_str     0x0000000000004e00      0x3fa .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
                                         0x9e1 (size before relaxing)
- .debug_str     0x00000000000051ce       0x45 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_str     0x00000000000051fa       0x45 .build/obj_ez_keyboard_default/./lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
                                         0x3e0 (size before relaxing)
 
 .debug_loc      0x0000000000000000     0x977f

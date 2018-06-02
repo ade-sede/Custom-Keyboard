@@ -1,0 +1,430 @@
+   1               		.file	"keymap.c"
+   2               	__SP_H__ = 0x3e
+   3               	__SP_L__ = 0x3d
+   4               	__SREG__ = 0x3f
+   5               	__tmp_reg__ = 0
+   6               	__zero_reg__ = 1
+   7               		.text
+   8               	.Ltext0:
+   9               		.cfi_sections	.debug_frame
+  10               		.section	.text.action_get_macro,"ax",@progbits
+  11               	.global	action_get_macro
+  13               	action_get_macro:
+  14               	.LFB17:
+  15               		.file 1 "keyboards/ez_keyboard/keymaps/default/keymap.c"
+   1:keyboards/ez_keyboard/keymaps/default/keymap.c **** /* Copyright 2017 REPLACE_WITH_YOUR_NAME
+   2:keyboards/ez_keyboard/keymaps/default/keymap.c ****  *
+   3:keyboards/ez_keyboard/keymaps/default/keymap.c ****  * This program is free software: you can redistribute it and/or modify
+   4:keyboards/ez_keyboard/keymaps/default/keymap.c ****  * it under the terms of the GNU General Public License as published by
+   5:keyboards/ez_keyboard/keymaps/default/keymap.c ****  * the Free Software Foundation, either version 2 of the License, or
+   6:keyboards/ez_keyboard/keymaps/default/keymap.c ****  * (at your option) any later version.
+   7:keyboards/ez_keyboard/keymaps/default/keymap.c ****  *
+   8:keyboards/ez_keyboard/keymaps/default/keymap.c ****  * This program is distributed in the hope that it will be useful,
+   9:keyboards/ez_keyboard/keymaps/default/keymap.c ****  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  10:keyboards/ez_keyboard/keymaps/default/keymap.c ****  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  11:keyboards/ez_keyboard/keymaps/default/keymap.c ****  * GNU General Public License for more details.
+  12:keyboards/ez_keyboard/keymaps/default/keymap.c ****  *
+  13:keyboards/ez_keyboard/keymaps/default/keymap.c ****  * You should have received a copy of the GNU General Public License
+  14:keyboards/ez_keyboard/keymaps/default/keymap.c ****  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  15:keyboards/ez_keyboard/keymaps/default/keymap.c ****  */
+  16:keyboards/ez_keyboard/keymaps/default/keymap.c **** #include QMK_KEYBOARD_H
+  17:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  18:keyboards/ez_keyboard/keymaps/default/keymap.c **** #define BASE_LAYER 0
+  19:keyboards/ez_keyboard/keymaps/default/keymap.c **** #define SYMBOL_LAYER 1
+  20:keyboards/ez_keyboard/keymaps/default/keymap.c **** #define MEDIA_LAYER 2
+  21:keyboards/ez_keyboard/keymaps/default/keymap.c **** const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+  22:keyboards/ez_keyboard/keymaps/default/keymap.c **** 	[BASE_LAYER] = LAYOUT(
+  23:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_GRAVE, KC_1, KC_2, KC_3, KC_4, KC_5, KC_EQUAL, KC_MINUS, KC_6, KC_7, KC_8, KC_9, KC_0, \
+  24:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_TAB, KC_Q, KC_W, KC_E, KC_R, KC_T, KC_QUOTE, KC_BSPACE, KC_Y, KC_U, KC_I, KC_O, KC_P, \
+  25:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_ESCAPE, KC_A, KC_S, KC_D, KC_F, KC_G, KC_SCOLON, KC_SLASH, KC_H, KC_J, KC_K, KC_L, KC_BSLASH, 
+  26:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_LSHIFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_COMMA, KC_DOT, KC_N, KC_M, KC_PGUP, KC_PGDOWN, KC_RSH
+  27:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_LCTRL, KC_LGUI, KC_LALT, LALT(KC_X), LCTL(KC_LBRACKET), MO(SYMBOL_LAYER), KC_SPACE, KC_ENTER, 
+  28:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		),
+  29:keyboards/ez_keyboard/keymaps/default/keymap.c **** 	[SYMBOL_LAYER] = LAYOUT(
+  30:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_ESCAPE, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F11, KC_F12, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10,
+  31:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_DEL, KC_LPRN, KC_RPRN, KC_TRNS,
+  32:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_CAPS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_LBRACKET, KC_RBRACKET,
+  33:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_LCBR, KC_RCBR, KC_TRNS
+  34:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_NO, KC_TRNS, KC_TRNS, 
+  35:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		),
+  36:keyboards/ez_keyboard/keymaps/default/keymap.c **** 	[MEDIA_LAYER] = LAYOUT(
+  37:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_SYSTEM_POWER, KC_SYSTEM_SLEEP, KC_SYSTEM_WAKE, KC_TRNS, KC_TRNS, KC_TRNS, BL_DEC, BL_INC, KC_T
+  38:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+  39:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+  40:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_WH_U
+  41:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_NO, KC_BTN1, KC_BTN2, KC_TRNS, KC_MS_L, KC_MS_D, 
+  42:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		),
+  43:keyboards/ez_keyboard/keymaps/default/keymap.c **** };
+  44:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  45:keyboards/ez_keyboard/keymaps/default/keymap.c **** const uint16_t PROGMEM fn_actions[] = {
+  46:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  47:keyboards/ez_keyboard/keymaps/default/keymap.c **** };
+  48:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  49:keyboards/ez_keyboard/keymaps/default/keymap.c **** const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
+  50:keyboards/ez_keyboard/keymaps/default/keymap.c **** {
+  16               		.loc 1 50 0
+  17               		.cfi_startproc
+  18               	.LVL0:
+  19               	/* prologue: function */
+  20               	/* frame size = 0 */
+  21               	/* stack size = 0 */
+  22               	.L__stack_usage = 0
+  51:keyboards/ez_keyboard/keymaps/default/keymap.c **** 	// MACRODOWN only works in this function
+  52:keyboards/ez_keyboard/keymaps/default/keymap.c **** 	switch(id) {
+  23               		.loc 1 52 0
+  24 0000 6111      		cpse r22,__zero_reg__
+  25 0002 00C0      		rjmp .L2
+  53:keyboards/ez_keyboard/keymaps/default/keymap.c **** 	case 0:
+  54:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		if (record->event.pressed) {
+  26               		.loc 1 54 0
+  27 0004 FC01      		movw r30,r24
+  28 0006 8281      		ldd r24,Z+2
+  29               	.LVL1:
+  30 0008 8823      		tst r24
+  31 000a 01F0      		breq .L4
+  55:keyboards/ez_keyboard/keymaps/default/keymap.c **** 			register_code(KC_RSFT);
+  32               		.loc 1 55 0
+  33 000c 85EE      		ldi r24,lo8(-27)
+  34 000e 0E94 0000 		call register_code
+  35               	.LVL2:
+  36               	.L2:
+  56:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		} else {
+  57:keyboards/ez_keyboard/keymaps/default/keymap.c **** 			unregister_code(KC_RSFT);
+  58:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		}
+  59:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		break;
+  60:keyboards/ez_keyboard/keymaps/default/keymap.c **** 	}
+  61:keyboards/ez_keyboard/keymaps/default/keymap.c **** 	return MACRO_NONE;
+  62:keyboards/ez_keyboard/keymaps/default/keymap.c **** };
+  37               		.loc 1 62 0
+  38 0012 90E0      		ldi r25,0
+  39 0014 80E0      		ldi r24,0
+  40               	/* epilogue start */
+  41 0016 0895      		ret
+  42               	.LVL3:
+  43               	.L4:
+  57:keyboards/ez_keyboard/keymaps/default/keymap.c **** 		}
+  44               		.loc 1 57 0
+  45 0018 85EE      		ldi r24,lo8(-27)
+  46 001a 0E94 0000 		call unregister_code
+  47               	.LVL4:
+  48 001e 00C0      		rjmp .L2
+  49               		.cfi_endproc
+  50               	.LFE17:
+  52               		.section	.text.matrix_init_user,"ax",@progbits
+  53               	.global	matrix_init_user
+  55               	matrix_init_user:
+  56               	.LFB18:
+  63:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  64:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  65:keyboards/ez_keyboard/keymaps/default/keymap.c **** void matrix_init_user(void) {
+  57               		.loc 1 65 0
+  58               		.cfi_startproc
+  59               	/* prologue: function */
+  60               	/* frame size = 0 */
+  61               	/* stack size = 0 */
+  62               	.L__stack_usage = 0
+  63               	/* epilogue start */
+  66:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  67:keyboards/ez_keyboard/keymaps/default/keymap.c **** }
+  64               		.loc 1 67 0
+  65 0000 0895      		ret
+  66               		.cfi_endproc
+  67               	.LFE18:
+  69               		.section	.text.matrix_scan_user,"ax",@progbits
+  70               	.global	matrix_scan_user
+  72               	matrix_scan_user:
+  73               	.LFB23:
+  74               		.cfi_startproc
+  75               	/* prologue: function */
+  76               	/* frame size = 0 */
+  77               	/* stack size = 0 */
+  78               	.L__stack_usage = 0
+  79               	/* epilogue start */
+  80 0000 0895      		ret
+  81               		.cfi_endproc
+  82               	.LFE23:
+  84               		.section	.text.process_record_user,"ax",@progbits
+  85               	.global	process_record_user
+  87               	process_record_user:
+  88               	.LFB20:
+  68:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  69:keyboards/ez_keyboard/keymaps/default/keymap.c **** void matrix_scan_user(void) {
+  70:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  71:keyboards/ez_keyboard/keymaps/default/keymap.c **** }
+  72:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  73:keyboards/ez_keyboard/keymaps/default/keymap.c **** bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+  89               		.loc 1 73 0
+  90               		.cfi_startproc
+  91               	.LVL5:
+  92               	/* prologue: function */
+  93               	/* frame size = 0 */
+  94               	/* stack size = 0 */
+  95               	.L__stack_usage = 0
+  74:keyboards/ez_keyboard/keymaps/default/keymap.c **** 	return true;
+  75:keyboards/ez_keyboard/keymaps/default/keymap.c **** }
+  96               		.loc 1 75 0
+  97 0000 81E0      		ldi r24,lo8(1)
+  98               	.LVL6:
+  99               	/* epilogue start */
+ 100 0002 0895      		ret
+ 101               		.cfi_endproc
+ 102               	.LFE20:
+ 104               		.section	.text.led_set_user,"ax",@progbits
+ 105               	.global	led_set_user
+ 107               	led_set_user:
+ 108               	.LFB21:
+  76:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  77:keyboards/ez_keyboard/keymaps/default/keymap.c **** void led_set_user(uint8_t usb_led) {
+ 109               		.loc 1 77 0
+ 110               		.cfi_startproc
+ 111               	.LVL7:
+ 112               	/* prologue: function */
+ 113               	/* frame size = 0 */
+ 114               	/* stack size = 0 */
+ 115               	.L__stack_usage = 0
+ 116               	/* epilogue start */
+  78:keyboards/ez_keyboard/keymaps/default/keymap.c **** 
+  79:keyboards/ez_keyboard/keymaps/default/keymap.c **** }
+ 117               		.loc 1 79 0
+ 118 0000 0895      		ret
+ 119               		.cfi_endproc
+ 120               	.LFE21:
+ 122               	.global	fn_actions
+ 123               		.section	.progmem.data.fn_actions,"a",@progbits
+ 126               	fn_actions:
+ 127               	.global	keymaps
+ 128               		.section	.progmem.data.keymaps,"a",@progbits
+ 131               	keymaps:
+ 132 0000 3500      		.word	53
+ 133 0002 1E00      		.word	30
+ 134 0004 1F00      		.word	31
+ 135 0006 2000      		.word	32
+ 136 0008 2100      		.word	33
+ 137 000a 2200      		.word	34
+ 138 000c 2E00      		.word	46
+ 139 000e 2D00      		.word	45
+ 140 0010 2300      		.word	35
+ 141 0012 2400      		.word	36
+ 142 0014 2500      		.word	37
+ 143 0016 2600      		.word	38
+ 144 0018 2700      		.word	39
+ 145 001a 2B00      		.word	43
+ 146 001c 1400      		.word	20
+ 147 001e 1A00      		.word	26
+ 148 0020 0800      		.word	8
+ 149 0022 1500      		.word	21
+ 150 0024 1700      		.word	23
+ 151 0026 3400      		.word	52
+ 152 0028 2A00      		.word	42
+ 153 002a 1C00      		.word	28
+ 154 002c 1800      		.word	24
+ 155 002e 0C00      		.word	12
+ 156 0030 1200      		.word	18
+ 157 0032 1300      		.word	19
+ 158 0034 2900      		.word	41
+ 159 0036 0400      		.word	4
+ 160 0038 1600      		.word	22
+ 161 003a 0700      		.word	7
+ 162 003c 0900      		.word	9
+ 163 003e 0A00      		.word	10
+ 164 0040 3300      		.word	51
+ 165 0042 3800      		.word	56
+ 166 0044 0B00      		.word	11
+ 167 0046 0D00      		.word	13
+ 168 0048 0E00      		.word	14
+ 169 004a 0F00      		.word	15
+ 170 004c 3100      		.word	49
+ 171 004e E100      		.word	225
+ 172 0050 1D00      		.word	29
+ 173 0052 1B00      		.word	27
+ 174 0054 0600      		.word	6
+ 175 0056 1900      		.word	25
+ 176 0058 0500      		.word	5
+ 177 005a 3600      		.word	54
+ 178 005c 3700      		.word	55
+ 179 005e 1100      		.word	17
+ 180 0060 1000      		.word	16
+ 181 0062 4B00      		.word	75
+ 182 0064 4E00      		.word	78
+ 183 0066 E500      		.word	229
+ 184 0068 E000      		.word	224
+ 185 006a E300      		.word	227
+ 186 006c E200      		.word	226
+ 187 006e 1B04      		.word	1051
+ 188 0070 2F01      		.word	303
+ 189 0072 0151      		.word	20737
+ 190 0074 2C00      		.word	44
+ 191 0076 2800      		.word	40
+ 192 0078 0253      		.word	21250
+ 193 007a 5000      		.word	80
+ 194 007c 5100      		.word	81
+ 195 007e 5200      		.word	82
+ 196 0080 4F00      		.word	79
+ 197 0082 2900      		.word	41
+ 198 0084 3A00      		.word	58
+ 199 0086 3B00      		.word	59
+ 200 0088 3C00      		.word	60
+ 201 008a 3D00      		.word	61
+ 202 008c 3E00      		.word	62
+ 203 008e 4400      		.word	68
+ 204 0090 4500      		.word	69
+ 205 0092 3F00      		.word	63
+ 206 0094 4000      		.word	64
+ 207 0096 4100      		.word	65
+ 208 0098 4200      		.word	66
+ 209 009a 4300      		.word	67
+ 210 009c 0100      		.word	1
+ 211 009e 0100      		.word	1
+ 212 00a0 0100      		.word	1
+ 213 00a2 0100      		.word	1
+ 214 00a4 0100      		.word	1
+ 215 00a6 0100      		.word	1
+ 216 00a8 0100      		.word	1
+ 217 00aa 4C00      		.word	76
+ 218 00ac 2602      		.word	550
+ 219 00ae 2702      		.word	551
+ 220 00b0 0100      		.word	1
+ 221 00b2 0100      		.word	1
+ 222 00b4 0100      		.word	1
+ 223 00b6 3900      		.word	57
+ 224 00b8 0100      		.word	1
+ 225 00ba 0100      		.word	1
+ 226 00bc 0100      		.word	1
+ 227 00be 0100      		.word	1
+ 228 00c0 0100      		.word	1
+ 229 00c2 0100      		.word	1
+ 230 00c4 0100      		.word	1
+ 231 00c6 2F00      		.word	47
+ 232 00c8 3000      		.word	48
+ 233 00ca 0100      		.word	1
+ 234 00cc 0100      		.word	1
+ 235 00ce 0100      		.word	1
+ 236 00d0 0100      		.word	1
+ 237 00d2 0100      		.word	1
+ 238 00d4 0100      		.word	1
+ 239 00d6 0100      		.word	1
+ 240 00d8 0100      		.word	1
+ 241 00da 0100      		.word	1
+ 242 00dc 0100      		.word	1
+ 243 00de 0100      		.word	1
+ 244 00e0 2F02      		.word	559
+ 245 00e2 3002      		.word	560
+ 246 00e4 0100      		.word	1
+ 247 00e6 0100      		.word	1
+ 248 00e8 0100      		.word	1
+ 249 00ea 0100      		.word	1
+ 250 00ec 0100      		.word	1
+ 251 00ee 0100      		.word	1
+ 252 00f0 0100      		.word	1
+ 253 00f2 0100      		.word	1
+ 254 00f4 0100      		.word	1
+ 255 00f6 0100      		.word	1
+ 256 00f8 0100      		.word	1
+ 257 00fa 0000      		.word	0
+ 258 00fc 0100      		.word	1
+ 259 00fe 0100      		.word	1
+ 260 0100 0100      		.word	1
+ 261 0102 0100      		.word	1
+ 262 0104 A500      		.word	165
+ 263 0106 A600      		.word	166
+ 264 0108 A700      		.word	167
+ 265 010a 0100      		.word	1
+ 266 010c 0100      		.word	1
+ 267 010e 0100      		.word	1
+ 268 0110 BB5C      		.word	23739
+ 269 0112 BC5C      		.word	23740
+ 270 0114 0100      		.word	1
+ 271 0116 0100      		.word	1
+ 272 0118 0100      		.word	1
+ 273 011a 0100      		.word	1
+ 274 011c 0100      		.word	1
+ 275 011e 0100      		.word	1
+ 276 0120 0100      		.word	1
+ 277 0122 0100      		.word	1
+ 278 0124 0100      		.word	1
+ 279 0126 0100      		.word	1
+ 280 0128 0100      		.word	1
+ 281 012a 0100      		.word	1
+ 282 012c 0100      		.word	1
+ 283 012e 0100      		.word	1
+ 284 0130 0100      		.word	1
+ 285 0132 0100      		.word	1
+ 286 0134 0100      		.word	1
+ 287 0136 0100      		.word	1
+ 288 0138 0100      		.word	1
+ 289 013a 0100      		.word	1
+ 290 013c 0100      		.word	1
+ 291 013e 0100      		.word	1
+ 292 0140 0100      		.word	1
+ 293 0142 0100      		.word	1
+ 294 0144 0100      		.word	1
+ 295 0146 0100      		.word	1
+ 296 0148 0100      		.word	1
+ 297 014a 0100      		.word	1
+ 298 014c 0100      		.word	1
+ 299 014e 0100      		.word	1
+ 300 0150 0100      		.word	1
+ 301 0152 0100      		.word	1
+ 302 0154 0100      		.word	1
+ 303 0156 0100      		.word	1
+ 304 0158 0100      		.word	1
+ 305 015a 0100      		.word	1
+ 306 015c 0100      		.word	1
+ 307 015e 0100      		.word	1
+ 308 0160 0100      		.word	1
+ 309 0162 0100      		.word	1
+ 310 0164 0100      		.word	1
+ 311 0166 F900      		.word	249
+ 312 0168 FA00      		.word	250
+ 313 016a 0100      		.word	1
+ 314 016c 0100      		.word	1
+ 315 016e 0100      		.word	1
+ 316 0170 0100      		.word	1
+ 317 0172 0100      		.word	1
+ 318 0174 0100      		.word	1
+ 319 0176 0000      		.word	0
+ 320 0178 F400      		.word	244
+ 321 017a F500      		.word	245
+ 322 017c 0100      		.word	1
+ 323 017e F200      		.word	242
+ 324 0180 F100      		.word	241
+ 325 0182 F000      		.word	240
+ 326 0184 F300      		.word	243
+ 327               		.text
+ 328               	.Letext0:
+ 329               		.file 2 "/usr/avr/include/stdint.h"
+ 330               		.file 3 "/usr/lib/gcc/avr/7.3.0/include/stddef.h"
+ 331               		.file 4 "./tmk_core/common/keyboard.h"
+ 332               		.file 5 "./tmk_core/common/keycode.h"
+ 333               		.file 6 "./tmk_core/common/action_macro.h"
+ 334               		.file 7 "./tmk_core/common/action.h"
+ 335               		.file 8 "./tmk_core/common/report.h"
+ 336               		.file 9 "./tmk_core/common/host.h"
+ 337               		.file 10 "./tmk_core/common/avr/xprintf.h"
+ 338               		.file 11 "./tmk_core/common/debug.h"
+ 339               		.file 12 "./quantum/keycode_config.h"
+ 340               		.file 13 "./quantum/quantum_keycodes.h"
+ 341               		.file 14 "./quantum/keymap.h"
+ 342               		.file 15 "./tmk_core/common/action_layer.h"
+ 343               		.file 16 "./tmk_core/common/timer.h"
+ 344               		.file 17 "./tmk_core/common/action_util.h"
+ 345               		.file 18 "/usr/avr/include/stdlib.h"
+ 346               		.file 19 "./quantum/quantum.h"
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 keymap.c
+ /var/tmp/cc1v8z5x.s:2      *ABS*:000000000000003e __SP_H__
+ /var/tmp/cc1v8z5x.s:3      *ABS*:000000000000003d __SP_L__
+ /var/tmp/cc1v8z5x.s:4      *ABS*:000000000000003f __SREG__
+ /var/tmp/cc1v8z5x.s:5      *ABS*:0000000000000000 __tmp_reg__
+ /var/tmp/cc1v8z5x.s:6      *ABS*:0000000000000001 __zero_reg__
+ /var/tmp/cc1v8z5x.s:13     .text.action_get_macro:0000000000000000 action_get_macro
+ /var/tmp/cc1v8z5x.s:55     .text.matrix_init_user:0000000000000000 matrix_init_user
+ /var/tmp/cc1v8z5x.s:72     .text.matrix_scan_user:0000000000000000 matrix_scan_user
+ /var/tmp/cc1v8z5x.s:87     .text.process_record_user:0000000000000000 process_record_user
+ /var/tmp/cc1v8z5x.s:107    .text.led_set_user:0000000000000000 led_set_user
+ /var/tmp/cc1v8z5x.s:126    .progmem.data.fn_actions:0000000000000000 fn_actions
+ /var/tmp/cc1v8z5x.s:131    .progmem.data.keymaps:0000000000000000 keymaps
+
+UNDEFINED SYMBOLS
+register_code
+unregister_code
