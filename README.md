@@ -1,5 +1,5 @@
 # Custom-Keyboard
-This repository hosts source files for my first custom keyboard.
+This repository hosts source files for my first DIY custom keyboard.
 
 ## Layout
 Layout is available in json format and meant to be opened on [Keyboard Layout Editor](http://www.keyboard-layout-editor.com).
