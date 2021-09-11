@@ -7,9 +7,10 @@ Layout is available in json format and meant to be opened on [Keyboard Layout Ed
 ## Firmware
 [QMK](https://github.com/qmk/qmk_firmware)
 
-## Hardware
-Gerber available.
-BOM should be available one day. Maybe.
+## Result
+Having no plate or casing causes a lot of stress on the PCB. It bends if I press too hard near the center, but it doesn't break.  
+Having no case causes the components to be exposed, and several tracks / diodes have been damaged and I have been forced to make small wire shorts to fix the keyboard regularly.
+But I still used it daily for 2 years, and it was awesome !
 
-## Down sides
-The PCB has not been designed to be used with PCB mounted switch, as I only had plate mounted switch available.
+![A picture fully assembled](./pics/assembled.jpg)
+
