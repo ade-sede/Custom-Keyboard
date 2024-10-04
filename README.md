@@ -1,4 +1,4 @@
-# Custom-Keyboard
+# Keyboard-v0
 This repository hosts source files for my first DIY custom keyboard.
 
 ## Layout
